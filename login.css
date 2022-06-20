@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.area-login {
+  background: url("img/fundo-login.jpeg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.login-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f7f7f7;
+  width: 40%;
+}
+
+.login-logo {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  width: 25vw;
+  margin: 0.5vw;
+}
+
+.login-logo .logo-nome {
+    color: #800080;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-weight: 800;
+    text-shadow: 0 0.1vw 0.1vw black;
+}
+
+.login-logo .logo-img svg {
+    cursor: pointer;
+    width: 4vw;
+    height: 4vw;
+    color: purple;
+    filter: drop-shadow(0 0.1vw 0.8vw black);
+    animation: spin 3s linear infinite;
+}
+
+.fazer-login h1 {
+  font-size: 2.8vw;
+  font-weight: bold;
+  width: 25vw;
+}
+
+.fazer-login p {
+  font-size: 1.2vw;
+}
+
+.fazer-login p a {
+    text-decoration: none;
+    color: blue;
+}
+
+.login form {
+  display: flex;
+  height: 33vh;
+  width: 25vw;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  justify-content: center;
+}
+
+.login-float {
+  position: relative;
+  padding-top: 1vw;
+}
+
+.login-float input {
+  transition: all .3s ease-out;
+  border-radius: 0;
+  width: 100%;
+  padding: 0.5vw 0;
+  font-size: 1.5vw;
+  margin-bottom: 2vw;
+  border: none;
+  border-bottom: 0.1vw solid black;
+  outline: none;
+  background: transparent;
+}
+
+.login-float input:focus{
+  border-bottom: 0.2vw solid purple;
+}
+
+.login-float input::placeholder{
+  color:transparent;
+}
+
+.login-float label{
+  pointer-events: none;
+  color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1.5vw;
+  margin-top: 1vw;
+  transition: all .3s ease-out;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+}
+
+.login-float input:focus + label,
+.login-float input:not(:placeholder-shown) + label{
+  font-size: 1vw;
+  margin-top: 0;
+  color: purple;
+  font-weight: bold;
+}
+
+.botao-login input{
+  width: 25vw;
+  padding: 0.8vw;
+  color: white;
+  background: purple;
+  border-radius: 1vw;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0.1vw 0.5vw 0.8vw black;
+  font-size: 1.2vw;
+}
+
+.botao-login input:active {
+  box-shadow: 0 0 0 black;
+  transition: 0.4s;
+}
+
+.ou {
+  display: flex;
+  justify-content: center;
+  font-size: 1.4vw;
+}
+
+.ou hr {
+  width: 15vw;
+  margin: 1vw;
+}
+
+.google, .facebook, .apple {
+  display: flex;
+  justify-content: center;
+}
+
+.google span, .facebook span, .apple span {
+  display: flex;
+  align-items: center;
+  gap: 0 1vw;
+  justify-content: center;
+  padding: 1vw;
+  border-radius: 1vw;
+  border: 0.1vw solid purple;
+  color: purple;
+  font-size: 1vw;
+  width: 20vw;
+  margin-top: 1vw;
+  cursor: pointer;
+}
+
+.google span:hover, .facebook span:hover, .apple span:hover {
+  box-shadow: 0.1vw 0.5vw 0.8vw black;
+  transition: 0.2s;
+}
+
+.google span svg, .facebook span svg, .apple span svg {
+  width: 1vw;
+  height: 1vw;
+}
+
+@media(max-width: 600px){
+
+  .area-login {
+    align-items: center;
+  }
+  
+  .login-info {
+    width: 80%;
+    height: 500px;
+  }
+
+  .login-logo {
+    width: 60vw;
+    margin: 3vw 0;
+  }
+
+  .login-logo .logo-nome {
+    font-size: 4vw;
+  }
+  
+  .login-logo .logo-img svg {
+    cursor: pointer;
+    width: 10vw;
+    height: 10vw;
+  }
+  
+  .fazer-login h1 {
+    font-size: 8vw;
+    font-weight: bold;
+    width: 60vw;
+    margin: 2vw 0;
+  }
+  
+  .fazer-login p {
+    font-size: 3vw;
+  }
+
+  .login form {
+    display: flex;
+    height: 30vh;
+    width: 60vw;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+  }
+  
+  .login-float {
+    position: relative;
+    padding-top: 2vw;
+  }
+  
+  .login-float input {
+    padding: 2vw 0;
+    font-size: 3.5vw;
+    margin-bottom: 3vw;
+  }
+  
+  .login-float label{
+    font-size: 4vw;
+    margin-top: 1vw;
+  }
+  
+  .login-float input:focus + label,
+  .login-float input:not(:placeholder-shown) + label{
+    font-size: 2vw;
+  }
+  
+  .botao-login input{
+    width: 60vw;
+    padding: 1vw;
+    font-size: 4vw;
+  }
+  
+  .ou {
+    display: flex;
+    justify-content: center;
+    font-size: 3vw;
+  }
+  
+  .ou hr {
+    width: 30vw;
+    margin: 2vw;
+  }
+
+  .google span, .facebook span, .apple span {
+    padding: 2vw;
+    border-radius: 1vw;
+    font-size: 3vw;
+    width: 60vw;
+    margin-top: 3vw;
+  }
+  
+  .google span svg, .facebook span svg, .apple span svg {
+    width: 3vw;
+    height: 3vw;
+  }
+}

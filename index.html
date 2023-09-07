@@ -1,888 +1,676 @@
-<!---->
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <meta name="theme-color" content="#000000"> -->
-  <title>GlobalTech</title>
-  <link href="img/logo.png" rel="shortcut icon" type="image/x-icon" />
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <link href="login.css" rel="stylesheet" type="text/css" />
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GlobalTech</title>
+	<!-- icon page -->
+	<link href="img/logo.png" rel="shortcut icon" type="image/x-icon" />
+	<!-- css link -->
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="login.css" rel="stylesheet" type="text/css" />
+	<!-- bootstrap icon link -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 
 <body>
-  <header>
-    <nav id="barraNav">
-
-      <div id="menu-logo">
-        <a class="logo-nome" href="#logo">Gl</a>
-        <figure class="logo-img">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe2"
-            viewBox="0 0 16 16">
-            <path
-              d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z" />
-          </svg>
-        </figure>
-        <a class="logo-nome" href="#logo">balTech</a>
-      </div>
-
-      <div class="celular-menu">
-        <div class="linha-1"></div>
-        <div class="linha-2"></div>
-        <div class="linha-3"></div>
-      </div>
-
-      <div class="menu-nav">
-        <ul class="lista">
-          <li class="casinha">
-            <a onclick="scrollToTop()"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
-                <path fill-rule="evenodd"
-                  d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
-                <path fill-rule="evenodd"
-                  d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
-              </svg></a>
-          </li>
-          <li><a href="#quemSomos">Quem Somos</a></li>
-          <li><a class="servico-reserva" href="#servicos">Serviços</a>
-            <details class="detalhes-servico">
-              <summary><a href="#servicos">Serviços</a></summary>
-              <span>
-                <p class="detalhes-p" title="Manutenção de computadores e notebooks">
-                  <a href="#manutencao">Manutenção</a>
-                </p>
-                <p class="detalhes-p" title="Reparos em programas e sistemas operacionais">
-                  <a href="#reparos">Reparos</a>
-                </p>
-                <p class="detalhes-p" title="Recuperação de dados em HDs, cartões de memória e pendrives">
-                  <a href="#recuperarDados">Recuperar dados</a>
-                </p>
-              </span>
-            </details>
-          </li>
-          <li><a href="#clientes">Clientes</a></li>
-          <li><a href="#contato">Contato</a>
-          <li class="onde-estamos"><a class="onde-estamos-reserva" href="#ondeEstamos">Onde Estamos</a>
-            <a class="onde-estamos-svg" href="#ondeEstamos"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
-              </svg></a>
-          </li>
-          <!----------------------------------ALTERADO----------------------------------->
-          <li title="Login" ><a href="login.html"> 
-              <svg onclick="" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                class="bi bi-door-open-fill" viewBox="0 0 16 16">
-                <path
-                  d="M1.5 15a.5.5 0 0 0 0 1h13a.5.5 0 0 0 0-1H13V2.5A1.5 1.5 0 0 0 11.5 1H11V.5a.5.5 0 0 0-.57-.495l-7 1A.5.5 0 0 0 3 1.5V15H1.5zM11 2h.5a.5.5 0 0 1 .5.5V15h-1V2zm-2.5 8c-.276 0-.5-.448-.5-1s.224-1 .5-1 .5.448.5 1-.224 1-.5 1z" />
-              </svg>
-          <!----------------------------------------------------------------------------->
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <!--
-          <span class="contato">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-right" viewBox="0 0 16 16">
-              <path d="M2 1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h9.586a2 2 0 0 1 1.414.586l2 2V2a1 1 0 0 0-1-1H2zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12z"/>
-            </svg>
-          </span>
-        -->
-
-
-    <div class="digitando">
-      <h1>Seja bem-vindo(a) ao nosso mundo da tecnologia!</h1>
-    </div>
-
-  </header>
-
-  <main>
-    <section id="home"></section>
-
-    <section id="quemSomos">
-
-      <div class="conteudo">
-        <div class="slider">
-          <div class="slide slide1">
-            <div class="captura">
-              <h2>Missão</h2>
-              <p>aaaaaaa aa aaaa aaaaaaa aaaaaaaa aaaaaaaaaa aaa aaaa aaaaa aaaa aaaaaaaaa aaáaaaaa
-                aaaaaaa aaaaaa aaaaaa aaa aaaaaaaaaaa aaaaaaaaaa </p>
-            </div>
-          </div>
-
-          <div class="slide slide2">
-            <div class="captura">
-              <h2>História</h2>
-              <p>aaaaaaa aa aaaa aaaaaaa aaaaaaaa aaaaaaaaaa aaa aaaa aaaaa aaaa aaaaaaaaa aaáaaaaa
-                aaaaaaa aaaaaa aaaaaa aaa aaaaaaaaaaa aaaaaaaaaa </p>
-            </div>
-          </div>
-
-          <div class="slide slide3">
-            <div class="captura">
-              <h2>Valores</h2>
-              <p>aaaaaaa aa aaaa aaaaaaa aaaaaaaa aaaaaaaaaa aaa aaaa aaaaa aaaa aaaaaaaaa aaáaaaaa
-                aaaaaaa aaaaaa aaaaaa aaa aaaaaaaaaaa aaaaaaaaaa </p>
-            </div>
-          </div>
-
-          <div class="slide slide4">
-            <div class="captura">
-              <h2>Serviços</h2>
-              <p>aaaaaaa aa aaaa aaaaaaa aaaaaaaa aaaaaaaaaa aaa aaaa aaaaa aaaa aaaaaaaaa aaáaaaaa
-                aaaaaaa aaaaaa aaaaaa aaa aaaaaaaaaaa aaaaaaaaaa </p>
-            </div>
-          </div>
-        </div>
-    </section>
-
-    <div class="quem-somos">
-      <h2>Quem Somos</h2>
-      <p>aaaaaaa aa aaaa aaaaaaa aaaaaaaa aaaaaaaaaa aaa aaaa aaaaa aaaa aaaaaaaaa aaáaaaaa aaaaaaa aa aaaa aaaaaaa
-        aaaaaaaa aaaaaaaaaa aaa aaaa aaaaa aaaa aaaaaaaaa aaáaaaaa aaaaaaa aaaaaa aaaaaa aaa aaaaaa aaaaa aaaaaaa
-        aaaaaaaaa aaaaaa aaaaaa aaa aaaaaaaaaaa aaaaaaa aa aaaa aaaaaaa aaaaaaaa aaaaaaaaaa aaa aaaa aaaaa aaaa
-        aaaaaaaaa aaaaaaaaaa</p>
-    </div>
-
-
-    <div class="area-pode-confiar">
-      <h2>Você pode confiar em quem é <span>líder no mercado de TI no Brasil</span></h2>
-
-      <div class="pode-confiar-info">
-        <span class="span-svg">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trophy-fill"
-            viewBox="0 0 16 16">
-            <path
-              d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
-          </svg>
-        </span>
-        <div class="pode-confiar">
-          <h3><span>+ 50.000</span> clientes satisfeitos</h3>
-        </div>
-
-        <span class="span-svg">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trophy-fill"
-            viewBox="0 0 16 16">
-            <path
-              d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
-          </svg>
-        </span>
-        <div class="pode-confiar">
-          <h3><span>+ 90%</span> de casos bem sucedidos</h3>
-        </div>
-
-        <span class="span-svg">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trophy-fill"
-            viewBox="0 0 16 16">
-            <path
-              d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
-          </svg>
-        </span>
-        <div class="pode-confiar">
-          <h3><span>24 horas</span> atendimento 24 horas, todos os dias</h3>
-        </div>
-      </div>
-    </div>
-
-    <section id="servicos">
-
-      <section>
-        <h2>Serviços</h2>
-
-        <div class="area-card">
-          <article class="card">
-            <img class="card-img" src="img/servicos/manutencao.jpg" alt="manutencao">
-            <div class="card-info">
-              <h2 class="card-titulo">Manutenção</h2>
-              <p class="card-descricao">aaaaaaa aaaaaaaaa aaaa aaaaaa aaaaa aaaa aaaaaaa aaaaaa aaaaaaa aaaaaaaaa aaaa
-                aaaaaa aaaaa aaaa aaaaaaa aaaaaa</p>
-              <a href="#manutencao" class="saiba-mais">Saiba mais</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <img class="card-img" src="img/servicos/reparos.jpg" alt="reparos">
-            <div class="card-info">
-              <h2 class="card-titulo">Reparos</h2>
-              <p class="card-descricao">aaaaaaa aaaaaaaaa aaaa aaaaaa aaaaa aaaa aaaaaaa aaaaaa aaaaaaa aaaaaaaaa aaaa
-                aaaaaa aaaaa aaaa aaaaaaa aaaaaa</p>
-              <a href="#reparos" class="saiba-mais">Saiba mais</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <img class="card-img" src="img/servicos/recuperarDados.jpeg" alt="recuperar dados">
-            <div class="card-info">
-              <h2 class="card-titulo">Recuperar dados</h2>
-              <p class="card-descricao">aaaaaaa aaaaaaaaa aaaa aaaaaa aaaaa aaaa aaaaaaa aaaaaa aaaaaaa aaaaaaaaa aaaa
-                aaaaaa aaaaa aaaa aaaaaaa aaaaaa</p>
-              <a href="#recuperarDados" class="saiba-mais">Saiba mais</a>
-            </div>
-          </article>
-        </div>
-      </section>
-
-    </section>
-
-    <div class="area-nosso-diferencial">
-      <h2>Por que escolher a <span>GlobalTech</span> ?</h2>
-
-      <div class="nosso-diferencial-info">
-        <span class="span-svg">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-            class="bi bi-credit-card-2-front-fill" viewBox="0 0 16 16">
-            <path
-              d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2.5 1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-2zm0 3a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zm0 2a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1zm3 0a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1zm3 0a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1zm3 0a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1z" />
-          </svg>
-        </span>
-        <div class="nosso-diferencial">
-          <h3><span>Flexibilidade no pagamento</span> Parcele em até 12x sem juros ou pague à vista com 5% de
-            desconto.</h3>
-        </div>
-
-        <span class="span-svg">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people-fill"
-            viewBox="0 0 16 16">
-            <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-            <path fill-rule="evenodd"
-              d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z" />
-            </path>
-            <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
-            </path>
-          </svg>
-        </span>
-        <div class="nosso-diferencial">
-          <h3><span>Atendimento personalizado</span> Nossa equipe irá lhe orientar em todas as etapas do processo com
-            agilidade e competência.</h3>
-        </div>
-
-        <span class="span-svg">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-truck"
-            viewBox="0 0 16 16">
-            <path
-              d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
-          </svg>
-        </span>
-        <div class="nosso-diferencial">
-          <h3><span>Envio gratuito do dispositivo</span> Oferecemos diversas opções de envio gratuito de dispositivos
-            para todo o Brasil</h3>
-        </div>
-      </div>
-    </div>
-
-
-    <section id="manutencao">
-      <div class="titulo-campo manutencao">
-        <div class="titulo-campo-fundo">
-          <h2>Manutenção</h2>
-        </div>
-      </div>
-
-      <article class="area-campo">
-
-        <div class="campo">
-          <span class="campo-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pc"
-              viewBox="0 0 16 16">
-              <path
-                d="M5 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H5Zm.5 14a.5.5 0 1 1 0 1 .5.5 0 0 1 0-1Zm2 0a.5.5 0 1 1 0 1 .5.5 0 0 1 0-1ZM5 1.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5ZM5.5 3h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1Z" />
-            </svg>
-          </span>
-          <h3 class="campo-titulo">pc</h3>
-          <p class="campo-texto">aaaaaaa aaaaaaaaa aaaa aaaaaa aaaaa aaaa aaaaaaa aaaaaa aaaaaaa aaaaaaaaa aaaa aaaaaa
-            aaaaa aaaa
-            aaaaaaa aaaaaa</p>
-          <a href="#" class="campo-saiba-mais">Saiba mais</a>
-        </div>
-
-        <div class="campo">
-          <span class="campo-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-laptop"
-              viewBox="0 0 16 16">
-              <path
-                d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z" />
-            </svg>
-          </span>
-          <h3 class="campo-titulo">laptop</h3>
-          <p class="campo-texto">aaaaaaa aaaaaaaaa aaaa aaaaaa aaaaa aaaa aaaaaaa aaaaaa aaaaaaa aaaaaaaaa aaaa aaaaaa
-            aaaaa aaaa
-            aaaaaaa aaaaaa</p>
-          <a href="#" class="campo-saiba-mais">Saiba mais</a>
-        </div>
-
-        <div class="campo">
-          <span class="campo-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-display"
-              viewBox="0 0 16 16">
-              <path
-                d="M0 4s0-2 2-2h12s2 0 2 2v6s0 2-2 2h-4c0 .667.083 1.167.25 1.5H11a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1h.75c.167-.333.25-.833.25-1.5H2s-2 0-2-2V4zm1.398-.855a.758.758 0 0 0-.254.302A1.46 1.46 0 0 0 1 4.01V10c0 .325.078.502.145.602.07.105.17.188.302.254a1.464 1.464 0 0 0 .538.143L2.01 11H14c.325 0 .502-.078.602-.145a.758.758 0 0 0 .254-.302 1.464 1.464 0 0 0 .143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.757.757 0 0 0-.302-.254A1.46 1.46 0 0 0 13.99 3H2c-.325 0-.502.078-.602.145z" />
-            </svg>
-          </span>
-          <h3 class="campo-titulo">Monitor</h3>
-          <p class="campo-texto">aaaaaaa aaaaaaaaa aaaa aaaaaa aaaaa aaaa aaaaaaa aaaaaa aaaaaaa aaaaaaaaa aaaa aaaaaa
-            aaaaa aaaa
-            aaaaaaa aaaaaa</p>
-          <a href="#" class="campo-saiba-mais">Saiba mais</a>
-        </div>
-
-      </article>
-    </section>
-
-    <!-------------------------------------------------------------------------------------->
-
-    <section id="reparos">
-      <div class="titulo-campo reparos">
-        <div class="titulo-campo-fundo">
-          <h2>Reparos</h2>
-        </div>
-      </div>
-
-      <article class="area-campo">
-
-        <div class="campo">
-          <span class="campo-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-              class="bi bi-folder2-open" viewBox="0 0 16 16">
-              <path
-                d="M1 3.5A1.5 1.5 0 0 1 2.5 2h2.764c.958 0 1.76.56 2.311 1.184C7.985 3.648 8.48 4 9 4h4.5A1.5 1.5 0 0 1 15 5.5v.64c.57.265.94.876.856 1.546l-.64 5.124A2.5 2.5 0 0 1 12.733 15H3.266a2.5 2.5 0 0 1-2.481-2.19l-.64-5.124A1.5 1.5 0 0 1 1 6.14V3.5zM2 6h12v-.5a.5.5 0 0 0-.5-.5H9c-.964 0-1.71-.629-2.174-1.154C6.374 3.334 5.82 3 5.264 3H2.5a.5.5 0 0 0-.5.5V6zm-.367 1a.5.5 0 0 0-.496.562l.64 5.124A1.5 1.5 0 0 0 3.266 14h9.468a1.5 1.5 0 0 0 1.489-1.314l.64-5.124A.5.5 0 0 0 14.367 7H1.633z" />
-            </svg>
-          </span>
-          <h3 class="campo-titulo">lógicos</h3>
-          <p class="campo-texto">aaaaaaa aaaaaaaaa aaaa aaaaaa aaaaa aaaa aaaaaaa aaaaaa aaaaaaa aaaaaaaaa aaaa aaaaaa
-            aaaaa aaaa
-            aaaaaaa aaaaaa</p>
-          <a href="#" class="campo-saiba-mais">Saiba mais</a>
-        </div>
-
-        <div class="campo">
-          <span class="campo-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bug"
-              viewBox="0 0 16 16">
-              <path
-                d="M4.355.522a.5.5 0 0 1 .623.333l.291.956A4.979 4.979 0 0 1 8 1c1.007 0 1.946.298 2.731.811l.29-.956a.5.5 0 1 1 .957.29l-.41 1.352A4.985 4.985 0 0 1 13 6h.5a.5.5 0 0 0 .5-.5V5a.5.5 0 0 1 1 0v.5A1.5 1.5 0 0 1 13.5 7H13v1h1.5a.5.5 0 0 1 0 1H13v1h.5a1.5 1.5 0 0 1 1.5 1.5v.5a.5.5 0 1 1-1 0v-.5a.5.5 0 0 0-.5-.5H13a5 5 0 0 1-10 0h-.5a.5.5 0 0 0-.5.5v.5a.5.5 0 1 1-1 0v-.5A1.5 1.5 0 0 1 2.5 10H3V9H1.5a.5.5 0 0 1 0-1H3V7h-.5A1.5 1.5 0 0 1 1 5.5V5a.5.5 0 0 1 1 0v.5a.5.5 0 0 0 .5.5H3c0-1.364.547-2.601 1.432-3.503l-.41-1.352a.5.5 0 0 1 .333-.623zM4 7v4a4 4 0 0 0 3.5 3.97V7H4zm4.5 0v7.97A4 4 0 0 0 12 11V7H8.5zM12 6a3.989 3.989 0 0 0-1.334-2.982A3.983 3.983 0 0 0 8 2a3.983 3.983 0 0 0-2.667 1.018A3.989 3.989 0 0 0 4 6h8z" />
-            </svg>
-          </span>
-          <h3 class="campo-titulo">eletrônicos</h3>
-          <p class="campo-texto">aaaaaaa aaaaaaaaa aaaa aaaaaa aaaaa aaaa aaaaaaa aaaaaa aaaaaaa aaaaaaaaa aaaa aaaaaa
-            aaaaa aaaa
-            aaaaaaa aaaaaa</p>
-          <a href="#" class="campo-saiba-mais">Saiba mais</a>
-        </div>
-
-        <div class="campo">
-          <span class="campo-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cpu"
-              viewBox="0 0 16 16">
-              <path
-                d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 14 4.5h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14a2.5 2.5 0 0 1-2.5 2.5v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14A2.5 2.5 0 0 1 2 11.5H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2A2.5 2.5 0 0 1 4.5 2V.5A.5.5 0 0 1 5 0zm-.5 3A1.5 1.5 0 0 0 3 4.5v7A1.5 1.5 0 0 0 4.5 13h7a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 11.5 3h-7zM5 6.5A1.5 1.5 0 0 1 6.5 5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5v-3zM6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z" />
-            </svg>
-          </span>
-          <h3 class="campo-titulo">físicos</h3>
-          <p class="campo-texto">aaaaaaa aaaaaaaaa aaaa aaaaaa aaaaa aaaa aaaaaaa aaaaaa aaaaaaa aaaaaaaaa aaaa aaaaaa
-            aaaaa aaaa
-            aaaaaaa aaaaaa</p>
-          <a href="#" class="campo-saiba-mais">Saiba mais</a>
-        </div>
-
-      </article>
-    </section>
-
-    <!-------------------------------------------------------------------------------------->
-
-    <section id="recuperarDados">
-      <div class="titulo-campo recuperarDados">
-        <div class="titulo-campo-fundo">
-          <h2>Recuperar dados</h2>
-        </div>
-      </div>
-
-      <article class="area-campo">
-
-        <div class="campo">
-          <span class="campo-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-device-hdd"
-              viewBox="0 0 16 16">
-              <path
-                d="M12 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm0 11a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm-7.5.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1ZM5 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0ZM8 8a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" />
-              <path
-                d="M12 7a4 4 0 0 1-3.937 4c-.537.813-1.02 1.515-1.181 1.677a1.102 1.102 0 0 1-1.56-1.559c.1-.098.396-.314.795-.588A4 4 0 0 1 8 3a4 4 0 0 1 4 4Zm-1 0a3 3 0 1 0-3.891 2.865c.667-.44 1.396-.91 1.955-1.268.224-.144.483.115.34.34l-.62.96A3.001 3.001 0 0 0 11 7Z" />
-              </path>
-              <path
-                d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2Zm2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H4Z" />
-              </path>
-            </svg>
-          </span>
-          <h3 class="campo-titulo">Hdd</h3>
-          <p class="campo-texto">aaaaaaa aaaaaaaaa aaaa aaaaaa aaaaa aaaa aaaaaaa aaaaaa aaaaaaa aaaaaaaaa aaaa aaaaaa
-            aaaaa aaaa
-            aaaaaaa aaaaaa</p>
-          <a href="#" class="campo-saiba-mais">Saiba mais</a>
-        </div>
-
-        <div class="campo">
-          <span class="campo-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-sd-card"
-              viewBox="0 0 16 16">
-              <path
-                d="M6.25 3.5a.75.75 0 0 0-1.5 0v2a.75.75 0 0 0 1.5 0v-2zm2 0a.75.75 0 0 0-1.5 0v2a.75.75 0 0 0 1.5 0v-2zm2 0a.75.75 0 0 0-1.5 0v2a.75.75 0 0 0 1.5 0v-2zm2 0a.75.75 0 0 0-1.5 0v2a.75.75 0 0 0 1.5 0v-2z" />
-              </path>
-              <path fill-rule="evenodd"
-                d="M5.914 0H12.5A1.5 1.5 0 0 1 14 1.5v13a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 14.5V3.914c0-.398.158-.78.44-1.06L4.853.439A1.5 1.5 0 0 1 5.914 0zM13 1.5a.5.5 0 0 0-.5-.5H5.914a.5.5 0 0 0-.353.146L3.146 3.561A.5.5 0 0 0 3 3.914V14.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5v-13z" />
-              </path>
-            </svg>
-          </span>
-          <h3 class="campo-titulo">Cartão de memória</h3>
-          <p class="campo-texto">aaaaaaa aaaaaaaaa aaaa aaaaaa aaaaa aaaa aaaaaaa aaaaaa aaaaaaa aaaaaaaaa aaaa aaaaaa
-            aaaaa aaaa
-            aaaaaaa aaaaaa</p>
-          <a href="#" class="campo-saiba-mais">Saiba mais</a>
-        </div>
-
-        <div class="campo">
-          <span class="campo-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-device-ssd"
-              viewBox="0 0 16 16">
-              <path
-                d="M4.75 4a.75.75 0 0 0-.75.75v3.5c0 .414.336.75.75.75h6.5a.75.75 0 0 0 .75-.75v-3.5a.75.75 0 0 0-.75-.75h-6.5ZM5 8V5h6v3H5Zm0-5.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm7 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0ZM4.5 11a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Zm7 0a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Z" />
-              <path
-                d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2Zm11 12V2a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1v-2a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2a1 1 0 0 0 1-1Zm-7.25 1v-2H5v2h.75Zm1.75 0v-2h-.75v2h.75Zm1.75 0v-2H8.5v2h.75ZM11 13h-.75v2H11v-2Z" />
-              </path>
-            </svg>
-          </span>
-          <h3 class="campo-titulo">ssd</h3>
-          <p class="campo-texto">aaaaaaa aaaaaaaaa aaaa aaaaaa aaaaa aaaa aaaaaaa aaaaaa aaaaaaa aaaaaaaaa aaaa aaaaaa
-            aaaaa aaaa
-            aaaaaaa aaaaaa</p>
-          <a href="#" class="campo-saiba-mais">Saiba mais</a>
-        </div>
-
-        <div class="campo">
-          <span class="campo-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-usb-drive"
-              viewBox="0 0 16 16">
-              <path
-                d="M6 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4H6v-4ZM7 1v1h1V1H7Zm2 0v1h1V1H9ZM6 5a1 1 0 0 0-1 1v8.5A1.5 1.5 0 0 0 6.5 16h4a1.5 1.5 0 0 0 1.5-1.5V6a1 1 0 0 0-1-1H6Zm0 1h5v8.5a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V6Z" />
-            </svg>
-          </span>
-          <h3 class="campo-titulo">pen-drive</h3>
-          <p class="campo-texto">aaaaaaa aaaaaaaaa aaaa aaaaaa aaaaa aaaa aaaaaaa aaaaaa aaaaaaa aaaaaaaaa aaaa aaaaaa
-            aaaaa aaaa
-            aaaaaaa aaaaaa</p>
-          <a href="#" class="campo-saiba-mais">Saiba mais</a>
-        </div>
-
-        <div class="campo">
-          <span class="campo-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hdd"
-              viewBox="0 0 16 16">
-              <path d="M4.5 11a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zM3 10.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
-              <path
-                d="M16 11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V9.51c0-.418.105-.83.305-1.197l2.472-4.531A1.5 1.5 0 0 1 4.094 3h7.812a1.5 1.5 0 0 1 1.317.782l2.472 4.53c.2.368.305.78.305 1.198V11zM3.655 4.26 1.592 8.043C1.724 8.014 1.86 8 2 8h12c.14 0 .276.014.408.042L12.345 4.26a.5.5 0 0 0-.439-.26H4.094a.5.5 0 0 0-.44.26zM1 10v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1z" />
-              </path>
-            </svg>
-          </span>
-          <h3 class="campo-titulo">hd</h3>
-          <p class="campo-texto">aaaaaaa aaaaaaaaa aaaa aaaaaa aaaaa aaaa aaaaaaa aaaaaa aaaaaaa aaaaaaaaa aaaa aaaaaa
-            aaaaa aaaa
-            aaaaaaa aaaaaa</p>
-          <a href="#" class="campo-saiba-mais">Saiba mais</a>
-        </div>
-
-      </article>
-    </section>
-
-    </section>
-
-    <section id="clientes">
-      <h1>Confira os depoimentos dos nossos clientes!</h1>
-
-      
-      <!--  -->
-
-      <article class="depoimento">
-
-        <div class="cartao-giratorio">
-          <div class="cartao-giratorio-interno">
-
-            <div class="cartao-giratorio-frente">
-              <img src="img/clientes/pessoa1.jpeg" alt="">
-              <!-----------------------ALTERADO--------------------------->
-              <span class="nome">Guilherme Abreu</span>
-              <br>
-              <span class="regiao">Belo Horizonte / MG</span>
-              <!---------------------------------------------------------->
-            </div>
-
-            <div class="cartao-giratorio-atras">
-              <h2>Guilherme Abreu</h2>
-              <p>aaaaaaaaaa aaa aaaaa aaaaaa aaaaaa aaaaaaaa aaaaaaaaaa aaaa aaa aaaaaaaaa aaaa aaaaa aaaaaaa aaaa
-                aaaaaaaaa aaaaaaaaaa aaaaa</p>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-quote"
-                viewBox="0 0 16 16">
-                <path
-                  d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z" />
-                </path>
-            </div>
-          </div>
-        </div>
-
-        <div class="cartao-giratorio">
-          <div class="cartao-giratorio-interno">
-
-            <div class="cartao-giratorio-frente">
-              <img src="img/clientes/pessoa2.jpg" alt="">
-              <!-----------------------ALTERADO--------------------------->
-              <span class="nome">Isabella Torres</span>
-              <br>
-              <span class="regiao">São Paulo / SP</span>
-              <!---------------------------------------------------------->
-            </div>
-
-            <div class="cartao-giratorio-atras">
-              <h2>Isabella Torres</h2>
-              <p>aaaaaaaaaa aaa aaaaa aaaaaa aaaaaa aaaaaaaa aaaaaaaaaa aaaa aaa aaaaaaaaa aaaa aaaaa aaaaaaa aaaa
-                aaaaaaaaa aaaaaaaaaa aaaaa</p>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-quote"
-                viewBox="0 0 16 16">
-                <path
-                  d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z" />
-                </path>
-            </div>
-          </div>
-        </div>
-
-        <div class="cartao-giratorio">
-          <div class="cartao-giratorio-interno">
-
-            <div class="cartao-giratorio-frente">
-              <img src="img/clientes/pessoa3.jpeg" alt="">
-              <!-----------------------ALTERADO--------------------------->
-              <span class="nome">Maurício Carneiro</span>
-              <br>
-              <span class="regiao">Fortaleza / CE</span>
-              <!---------------------------------------------------------->
-            </div>
-
-            <div class="cartao-giratorio-atras">
-              <h2>Maurício Carneiro</h2>
-              <p>aaaaaaaaaa aaa aaaaa aaaaaa aaaaaa aaaaaaaa aaaaaaaaaa aaaa aaa aaaaaaaaa aaaa aaaaa aaaaaaa aaaa
-                aaaaaaaaa aaaaaaaaaa aaaaa</p>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-quote"
-                viewBox="0 0 16 16">
-                <path
-                  d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z" />
-                </path>
-            </div>
-          </div>
-        </div>
-
-        <div class="cartao-giratorio">
-          <div class="cartao-giratorio-interno">
-
-            <div class="cartao-giratorio-frente">
-              <img src="img/clientes/pessoa4.jpeg" alt="">
-              <!-----------------------ALTERADO--------------------------->
-              <span class="nome">Carol Macedo</span>
-              <br>
-              <span class="regiao">Rio de Janeiro / RJ</span>
-              <!---------------------------------------------------------->
-            </div>
-
-            <div class="cartao-giratorio-atras">
-              <h2>Carol Macedo</h2>
-              <p>aaaaaaaaaa aaa aaaaa aaaaaa aaaaaa aaaaaaaa aaaaaaaaaa aaaa aaa aaaaaaaaa aaaa aaaaa aaaaaaa aaaa
-                aaaaaaaaa aaaaaaaaaa aaaaa</p>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-quote"
-                viewBox="0 0 16 16">
-                <path
-                  d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z" />
-                </path>
-            </div>
-          </div>
-        </div>
-
-        <div class="cartao-giratorio">
-          <div class="cartao-giratorio-interno">
-
-            <div class="cartao-giratorio-frente">
-              <img src="img/clientes/pessoa5.jpeg" alt="">
-              <!-----------------------ALTERADO--------------------------->
-              <span class="nome">Sarah Farias</span>
-              <br>
-              <span class="regiao">Campina Grande / PB</span>
-              <!---------------------------------------------------------->
-            </div>
-
-            <div class="cartao-giratorio-atras">
-              <h2>Sarah Farias</h2>
-              <p>aaaaaaaaaa aaa aaaaa aaaaaa aaaaaa aaaaaaaa aaaaaaaaaa aaaa aaa aaaaaaaaa aaaa aaaaa aaaaaaa aaaa
-                aaaaaaaaa aaaaaaaaaa aaaaa</p>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-quote"
-                viewBox="0 0 16 16">
-                <path
-                  d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z" />
-                </path>
-            </div>
-          </div>
-        </div>
-
-        <div class="cartao-giratorio">
-          <div class="cartao-giratorio-interno">
-
-            <div class="cartao-giratorio-frente">
-              <img src="img/clientes/pessoa6.jpeg" alt="">
-              <!-----------------------ALTERADO--------------------------->
-              <span class="nome">Caio Ribeiro</span>
-              <br>
-              <span class="regiao">Brasília / DF</span>
-              <!---------------------------------------------------------->
-            </div>
-
-            <div class="cartao-giratorio-atras">
-              <h2>Caio Ribeiro</h2>
-              <p>aaaaaaaaaa aaa aaaaa aaaaaa aaaaaa aaaaaaaa aaaaaaaaaa aaaa aaa aaaaaaaaa aaaa aaaaa aaaaaaa aaaa
-                aaaaaaaaa aaaaaaaaaa aaaaa</p>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-quote"
-                viewBox="0 0 16 16">
-                <path
-                  d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z" />
-                </path>
-            </div>
-          </div>
-        </div>
-      </article>
-
-    </section>
-
-    <section id="contato">
-
-      <div>
-        <h2>Contate-nos</h2>
-
-        <article class="area-contato">
-          <form action="mailto: vitoriabarbosa2474@gmail.com" method="post" enctype="text/plain">
-            <div class="label-float">
-              <input type="text" id="texto" name="texto" placeholder=" " maxlength="50" required>
-              <label for="texto">Nome</label>
-            </div>
-
-            <div class="label-float">
-              <input type="email" class="text" name="email" placeholder=" " maxlength="50" required>
-              <label for="email">E-mail</label>
-            </div>
-
-            <div class="label-float">
-              <input type="text" class="numero" name="telefone" placeholder=" " maxlength="14" required>
-              <label for="telefone">Telefone</label>
-            </div>
-
-            <div class="label-float">
-              <textarea id="text" name="texto" placeholder=" " required></textarea>
-              <label for="texto">Mensagem</label>
-            </div>
-
-            <div class="botao-enviar">
-              <input onclick="return validarForm()" and onclick="numero()" and onclick="text()" type="submit"
-                value="Enviar">
-            </div>
-          </form>
-
-          <div class="contato-infos">
-            <div>
-              <h3>Contato</h3>
-              <p>contato@globaltech.com</p>
-            </div>
-
-            <div>
-              <h3>Localização</h3>
-              <p>Campina Grande, <br> Paraíba</p>
-            </div>
-
-            <div class="redes-sociais">
-              <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                  class="bi bi-facebook" viewBox="0 0 16 16">
-                  <path
-                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                </svg>
-              </span>
-
-              <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                  class="bi bi-instagram" viewBox="0 0 16 16">
-                  <path
-                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                </svg>
-              </span>
-
-              <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter"
-                  viewBox="0 0 16 16">
-                  <path
-                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
-                </svg>
-              </span>
-            </div>
-
-          </div>
-
-        </article>
-
-      </div>
-    </section>
-
-    <section id="ondeEstamos">
-      <div class="div-h2">
-        <h2>Conheça nossa sede!</h2>
-      </div>
-
-      <div class="localizacao">
-        <h3>Encontre a melhor rota, e venha conhecer a <span>GlobalTech</span>!</h3>
-        <div class="mapa">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.0067655971716!2d-35.918366186031264!3d-7.240065573118649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7aea0a6fab8137d%3A0x24f6e08262999405!2sIFPB%20Campina%20Grande!5e0!3m2!1spt-BR!2sbr!4v1654210278943!5m2!1spt-BR!2sbr"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade">
-          </iframe>
-        </div>
-      </div>
-    </section>
-
-    <!---------------------------------ALTERADO------------------------------------->
-    <section id="area-cliente">
-      <div>
-        <h2>Área do cliente</h2>
-        <hr>
-        <ul>
-          <li>Acesse o Serviço</li>
-          <li>Acompanhe o Processo</li>
-          <li>Pague Online</li>
-          <li>Receba Ofertas</li>
-          <li>Converse com Especialistas</li>
-        </ul>
-        <a href="login.html"><button>Faça Login</button></a>
-      </div>
-      <div class="img-area-cliente">
-        <img src="img/area-cliente.png" alt="cliente"/>
-      </div>
-    </section>
-    <!------------------------------------------------------------------------------>
-    
-  </main>
-
-  <div class="topo">
-    <span id="ir-topo" onclick="scrollToTop()">↑</span>
-  </div>
-
-  <footer>
-    <!--
-      <div class="desenvolvedores">
-        <h2>Desenvolvedores:</h2>
-        
-        <span class="bloco-desenvolvedores">
-          <figcaption>
-            <img src="imagens/boneco-branco.png" alt="Maria Vitória">
-            <i><a href="https://www.instagram.com/vitoriaq141/" target="_blank">Maria Vitória</a></i>
-          </figcaption>
-  
-          <figcaption>
-            <img src="imagens/boneco-branco.png" alt="Vitória Barbosa">
-            <i><a href="https://www.instagram.com/barbosa.crf_/" target="_blank">Vitória Barbosa</a></i>
-          </figcaption>
-        </span>    
-      </div>
-      -->
-    <section class="sitemap">
-
-      <div class="sobre-empresa">
-        <h2>Empresa</h2>
-        <p>aaaaaaaaa
-          aaaaaaa aaaaaaaa aaaaaaa aaa aaaaaaaaaa aaaaaa aaaaaa aaaa aaaaaa aaaaaaa aaaaaa aaaaaa aaaaa aaaaaaa aaaaaaaa
-          aaaa aaaaaaaaaa aaaaaaaa aaaaaaaa aaaaaaa aaaaa</p>
-      </div>
-
-      <div class="servico-empresa">
-        <h2>Serviços</h2>
-        <ul>
-          <li><a href="#manutencao">Manutenção</a></li>
-          <li><a href="#reparos">Reparos</a></li>
-          <li><a href="#recuperarDados">Recuperação de dados</a></li>
-        </ul>
-      </div>
-
-      <div class="contato-empresa">
-        <h2>Contato</h2>
-        <span>
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope"
-            viewBox="0 0 16 16">
-            <path
-              d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
-          </svg>
-          <p>contato@globaltech.com.br</p>
-        </span>
-
-        <span>
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone"
-            viewBox="0 0 16 16">
-            <path
-              d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
-          </svg>
-          <p>(83) 0000-0000</p>
-        </span>
-
-        <span>
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp"
-            viewBox="0 0 16 16">
-            <path
-              d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
-          </svg>
-          <p>(83) 90000-0000</p>
-        </span>
-      </div>
-
-      <div>
-        <iframe class="mapa-rodape"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.0067655971716!2d-35.918366186031264!3d-7.240065573118649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7aea0a6fab8137d%3A0x24f6e08262999405!2sIFPB%20Campina%20Grande!5e0!3m2!1spt-BR!2sbr!4v1654210278943!5m2!1spt-BR!2sbr"
-          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-      </div>
-
-
-    </section>
-
-    <hr>
-    <div class="rodape">
-      <p> © Copyright 2022 - <a style="color:white; text-decoration:none" href="#home">GlobalTech</a>.</p> <!-----------------ALTERADO------------------>
-      <div class="links-footer">
-        <ul>
-          <li><a href="#home">Home</a><span class="barrinha">|</span></li>
-          <li><a href="#quemSomos">Quem Somos</a><span class="barrinha">|</span></li>
-          <li><a href="#servicos">Serviços</a><span class="barrinha">|</span></li>
-          <li><a href="#clientes">Clientes</a><span class="barrinha">|</span></li>
-          <li><a href="#contato">Contato</a><span class="barrinha">|</span></li>
-          <li><a href="#ondeEstamos">Onde Estamos</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <span class="termos-de-uso">
-      <a href="privacidade.html"> Política de Privacidade </a>
-      <span class="barrinha">|</span>
-      <a href="termos.html"> Termos de Uso </a>
-    </span>
-
-  </footer>
-
-  <script src="script.js"></script>
-  <script src="scroll.js"></script>
-
+	<header>
+		<nav id="barraNav">
+			<div id="menu-logo">
+				<a class="logo-nome" href="#logo">Gl</a>
+				<figure class="logo-img">
+					<i class="bi bi-globe2"></i>
+				</figure>
+				<a class="logo-nome" href="#logo">balTech</a>
+			</div>
+
+			<div class="celular-menu">
+				<div class="linha-1"></div>
+				<div class="linha-2"></div>
+				<div class="linha-3"></div>
+			</div>
+
+			<div class="menu-nav">
+				<ul class="lista">
+					<li><a class="casinha" onclick="scrollToTop()"><i class="bi bi-house-fill"></i></a></li>
+					<li><a href="#quemSomos">Quem Somos</a></li>
+					<li>
+						<a class="servico-reserva" href="#servicos">Serviços</a>
+						<div class="detalhes-servico">
+							<a href="#servicos">Serviços</a>
+							<span>
+								<p class="detalhes-p" title="Manutenção de computadores e notebooks">
+									<a href="#manutencao">Manutenção</a>
+								</p>
+								<p class="detalhes-p" title="Reparos em programas e sistemas operacionais">
+									<a href="#reparos">Reparos</a>
+								</p>
+								<p class="detalhes-p" title="Recuperação de dados em HDs, cartões de memória e pendrives">
+									<a href="#recuperarDados">Recuperar dados</a>
+								</p>
+							</span>
+						</div>
+					</li>
+					<li><a href="#clientes">Clientes</a></li>
+					<li><a href="#contato">Contato</a>
+					<li><a href="#ondeEstamos">Onde Estamos</a></li>
+					<li title="Login">
+						<a class="icon-login" href="login.html"><i class="bi bi-door-closed-fill"></i></a>
+						<!-- <a class="button-login" href="login.html">Login</a> -->
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="digitando">
+			<h1>Seja bem-vindo(a) ao nosso mundo da tecnologia!</h1>
+		</div>
+	</header>
+
+	<main>
+		<section id="home"></section>
+
+		<section id="quemSomos">
+			<div class="conteudo">
+				<div class="slider">
+					<div class="slide slide1">
+						<div class="captura">
+							<h2>Missão</h2>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum saepe sequi debitis error
+								voluptatum
+								quia, tempore esse! Voluptate cupiditate, assumenda totam aperiam consequatur, ea quaerat
+								molestias
+								deleniti repellat explicabo a?</p>
+						</div>
+					</div>
+
+					<div class="slide slide2">
+						<div class="captura">
+							<h2>História</h2>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quia. Totam porro, suscipit
+								explicabo nisi qui itaque fuga excepturi dolor commodi natus, neque odio, et sunt! Corporis
+								harum hic
+								sequi..</p>
+						</div>
+					</div>
+
+					<div class="slide slide3">
+						<div class="captura">
+							<h2>Valores</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nostrum magni quis sequi
+								voluptatem
+								laudantium quidem earum incidunt maxime facilis doloremque, ut dolorem eos iste id adipisci!
+								Reprehenderit, odio debitis!.</p>
+						</div>
+					</div>
+
+					<div class="slide slide4">
+						<div class="captura">
+							<h2>Serviços</h2>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab doloremque vel quod, neque
+								vero, voluptate, earum labore optio illum repellat nostrum assumenda quia soluta accusamus nihil
+								ipsa unde totam.</p>
+						</div>
+					</div>
+				</div>
+		</section>
+
+		<div class="quem-somos">
+			<h2>Quem Somos</h2>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias et debitis quo ratione reiciendis!
+				Reprehenderit, nam non explicabo voluptatem labore error dolorem eligendi, illo cupiditate quibusdam aperiam
+				ipsa blanditiis suscipit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, a! Autem, quod
+				reiciendis. Quis sed corrupti natus, vitae qui cum minus, illum sunt quas dolore explicabo architecto
+				accusantium voluptate officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore odio nam
+				libero
+				odit alias, exercitationem nemo animi laudantium quaerat, ea corporis est aliquam explicabo fugit provident
+				tempora, officiis aliquid a.</p>
+		</div>
+
+		<div class="area-pode-confiar">
+			<h2>Você pode confiar em quem é <span>líder no mercado de TI no Brasil</span></h2>
+			<div class="pode-confiar-info">
+				<span class="span-icon">
+					<i class="bi bi-trophy-fill"></i>
+				</span>
+				<div class="pode-confiar">
+					<h3><span>+ 50.000</span> clientes satisfeitos</h3>
+				</div>
+				
+				<span class="span-icon">
+					<i class="bi bi-trophy-fill"></i>
+				</span>
+				<div class="pode-confiar">
+					<h3><span>+ 90%</span> de casos bem sucedidos</h3>
+				</div>
+
+				<span class="span-icon">
+					<i class="bi bi-trophy-fill"></i>
+				</span>
+				<div class="pode-confiar">
+					<h3><span>24 horas</span> atendendo todos os dias</h3>
+				</div>
+			</div>
+		</div>
+
+		<section id="servicos">
+			<section>
+				<h2>Serviços</h2>
+				<div class="area-card">
+					<article class="card">
+						<img class="card-img" src="img/servicos/manutencao.jpg" alt="manutencao">
+						<div class="card-info">
+							<h2 class="card-titulo">Manutenção</h2>
+							<p class="card-descricao">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam magni optio
+								voluptates dolorum tempora iure! Quas, tempore.</p>
+							<a href="#manutencao" class="saiba-mais">Saiba mais</a>
+						</div>
+					</article>
+
+					<article class="card">
+						<img class="card-img" src="img/servicos/reparos.jpg" alt="reparos">
+						<div class="card-info">
+							<h2 class="card-titulo">Reparos</h2>
+							<p class="card-descricao">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam magni optio
+								voluptates dolorum tempora iure! Quas, tempore.</p>
+							<a href="#reparos" class="saiba-mais">Saiba mais</a>
+						</div>
+					</article>
+
+					<article class="card">
+						<img class="card-img" src="img/servicos/recuperarDados.jpeg" alt="recuperar dados">
+						<div class="card-info">
+							<h2 class="card-titulo">Recuperar dados</h2>
+							<p class="card-descricao">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam magni optio
+								voluptates dolorum tempora iure! Quas, tempore.</p>
+							<a href="#recuperarDados" class="saiba-mais">Saiba mais</a>
+						</div>
+					</article>
+				</div>
+			</section>
+		</section>
+
+		<div class="area-nosso-diferencial">
+			<h2>Por que escolher a <span>GlobalTech</span> ?</h2>
+
+			<div class="nosso-diferencial-info">
+				<span class="span-icon">
+					<i class="bi bi-credit-card-2-front-fill"></i>
+				</span>
+				<div class="nosso-diferencial">
+					<h3><span>Flexibilidade no pagamento</span> Parcele em até 12x sem juros ou pague à vista com 5% de
+						desconto.</h3>
+				</div>
+
+				<span class="span-icon">
+					<i class="bi bi-people-fill"></i>
+				</span>
+				<div class="nosso-diferencial">
+					<h3><span>Atendimento personalizado</span> Nossa equipe irá lhe orientar em todas as etapas do processo
+						com
+						agilidade e competência.</h3>
+				</div>
+
+				<span class="span-icon">
+					<i class="bi bi-truck"></i>
+				</span>
+				<div class="nosso-diferencial">
+					<h3><span>Envio gratuito do dispositivo</span> Oferecemos diversas opções de envio gratuito de
+						dispositivos
+						para todo o Brasil</h3>
+				</div>
+			</div>
+		</div>
+
+		<section id="manutencao">
+			<div class="titulo-campo manutencao">
+				<div class="titulo-campo-fundo">
+					<h2>Manutenção</h2>
+				</div>
+			</div>
+
+			<article class="area-campo">
+				<div class="campo">
+					<span class="campo-icon">
+						<i class="bi bi-pc"></i>
+					</span>
+					<h3 class="campo-titulo">pc</h3>
+					<p class="campo-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia sit obcaecati
+						modi
+						beatae natus similique quis vitae, quidem quibusdam?</p>
+					<a href="#" class="campo-saiba-mais">Saiba mais</a>
+				</div>
+
+				<div class="campo">
+					<span class="campo-icon">
+						<i class="bi bi-laptop"></i>
+					</span>
+					<h3 class="campo-titulo">laptop</h3>
+					<p class="campo-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia sit obcaecati
+						modi
+						beatae natus similique quis vitae, quidem quibusdam?</p>
+					<a href="#" class="campo-saiba-mais">Saiba mais</a>
+				</div>
+
+				<div class="campo">
+					<span class="campo-icon">
+						<i class="bi bi-display"></i>
+					</span>
+					<h3 class="campo-titulo">Monitor</h3>
+					<p class="campo-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia sit obcaecati
+						modi
+						beatae natus similique quis vitae, quidem quibusdam?</p>
+					<a href="#" class="campo-saiba-mais">Saiba mais</a>
+				</div>
+
+			</article>
+		</section>
+
+		<section id="reparos">
+			<div class="titulo-campo reparos">
+				<div class="titulo-campo-fundo">
+					<h2>Reparos</h2>
+				</div>
+			</div>
+
+			<article class="area-campo">
+				<div class="campo">
+					<span class="campo-icon">
+						<i class="bi bi-folder2-open"></i>
+					</span>
+					<h3 class="campo-titulo">lógicos</h3>
+					<p class="campo-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia sit obcaecati
+						modi
+						beatae natus similique quis vitae, quidem quibusdam?</p>
+					<a href="#" class="campo-saiba-mais">Saiba mais</a>
+				</div>
+
+				<div class="campo">
+					<span class="campo-icon">
+						<i class="bi bi-bug"></i>
+					</span>
+					<h3 class="campo-titulo">eletrônicos</h3>
+					<p class="campo-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia sit obcaecati
+						modi
+						beatae natus similique quis vitae, quidem quibusdam?</p>
+					<a href="#" class="campo-saiba-mais">Saiba mais</a>
+				</div>
+
+				<div class="campo">
+					<span class="campo-icon">
+						<i class="bi bi-cpu"></i>
+					</span>
+					<h3 class="campo-titulo">físicos</h3>
+					<p class="campo-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia sit obcaecati
+						modi
+						beatae natus similique quis vitae, quidem quibusdam?</p>
+					<a href="#" class="campo-saiba-mais">Saiba mais</a>
+				</div>
+
+			</article>
+		</section>
+
+		<section id="recuperarDados">
+			<div class="titulo-campo recuperarDados">
+				<div class="titulo-campo-fundo">
+					<h2>Recuperar dados</h2>
+				</div>
+			</div>
+
+			<article class="area-campo">
+				<div class="campo">
+					<span class="campo-icon">
+						<i class="bi bi-device-hdd"></i>
+					</span>
+					<h3 class="campo-titulo">Hdd</h3>
+					<p class="campo-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia sit obcaecati
+						modi
+						beatae natus similique quis vitae, quidem quibusdam?</p>
+					<a href="#" class="campo-saiba-mais">Saiba mais</a>
+				</div>
+
+				<div class="campo">
+					<span class="campo-icon">
+						<i class="bi bi-sd-card"></i>
+					</span>
+					<h3 class="campo-titulo">Cartão de memória</h3>
+					<p class="campo-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia sit obcaecati
+						modi
+						beatae natus similique quis vitae, quidem quibusdam?</p>
+					<a href="#" class="campo-saiba-mais">Saiba mais</a>
+				</div>
+
+				<div class="campo">
+					<span class="campo-icon">
+						<i class="bi bi-device-ssd"></i>
+					</span>
+					<h3 class="campo-titulo">ssd</h3>
+					<p class="campo-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia sit obcaecati
+						modi
+						beatae natus similique quis vitae, quidem quibusdam?</p>
+					<a href="#" class="campo-saiba-mais">Saiba mais</a>
+				</div>
+
+				<div class="campo">
+					<span class="campo-icon">
+						<i class="bi bi-usb-drive"></i>
+					</span>
+					<h3 class="campo-titulo">pen-drive</h3>
+					<p class="campo-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia sit obcaecati
+						modi
+						beatae natus similique quis vitae, quidem quibusdam?</p>
+					<a href="#" class="campo-saiba-mais">Saiba mais</a>
+				</div>
+
+				<div class="campo">
+					<span class="campo-icon">
+						<i class="bi bi-hdd"></i>
+					</span>
+					<h3 class="campo-titulo">hd</h3>
+					<p class="campo-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia sit obcaecati
+						modi
+						beatae natus similique quis vitae, quidem quibusdam?</p>
+					<a href="#" class="campo-saiba-mais">Saiba mais</a>
+				</div>
+
+			</article>
+		</section>
+
+		<section id="clientes">
+			<h1>Confira os depoimentos dos nossos clientes!</h1>
+
+			<article class="depoimento">
+
+				<div class="cartao-giratorio">
+					<div class="cartao-giratorio-interno">
+
+						<div class="cartao-giratorio-frente">
+							<img src="img/clientes/pessoa1.jpeg" alt="">
+							<span class="nome">Guilherme Abreu</span>
+							<br>
+							<span class="regiao">Belo Horizonte / MG</span>
+						</div>
+
+						<div class="cartao-giratorio-atras">
+							<h2>Guilherme Abreu</h2>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ipsa dolorum magnam atque? Tenetur
+								nihil
+								vero, labore minima esse expedita dolore repellendus tempora, accusantium incidunt ut maxime
+								distinctio
+								fuga vel?</p>
+							<i class="bi bi-quote"></i>
+						</div>
+					</div>
+				</div>
+
+				<div class="cartao-giratorio">
+					<div class="cartao-giratorio-interno">
+
+						<div class="cartao-giratorio-frente">
+							<img src="img/clientes/pessoa2.jpg" alt="">
+							<span class="nome">Isabella Torres</span>
+							<br>
+							<span class="regiao">São Paulo / SP</span>
+						</div>
+
+						<div class="cartao-giratorio-atras">
+							<h2>Isabella Torres</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sunt tempora perferendis
+								ullam,
+								temporibus hic totam, quae recusandae fugiat, doloribus corrupti exercitationem labore id.
+								Ducimus nobis
+								esse dolores excepturi iure.</p>
+							<i class="bi bi-quote"></i>
+						</div>
+					</div>
+				</div>
+
+				<div class="cartao-giratorio">
+					<div class="cartao-giratorio-interno">
+
+						<div class="cartao-giratorio-frente">
+							<img src="img/clientes/pessoa3.jpeg" alt="">
+							<span class="nome">Maurício Carneiro</span>
+							<br>
+							<span class="regiao">Fortaleza / CE</span>
+						</div>
+
+						<div class="cartao-giratorio-atras">
+							<h2>Maurício Carneiro</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium corrupti amet praesentium,
+								asperiores dolores voluptatem quam aspernatur itaque officiis, culpa adipisci saepe provident
+								nobis
+								magnam, deleniti quas non impedit et.</p>
+							<i class="bi bi-quote"></i>
+						</div>
+					</div>
+				</div>
+
+				<div class="cartao-giratorio">
+					<div class="cartao-giratorio-interno">
+
+						<div class="cartao-giratorio-frente">
+							<img src="img/clientes/pessoa4.jpeg" alt="">
+							<span class="nome">Carol Macedo</span>
+							<br>
+							<span class="regiao">Rio de Janeiro / RJ</span>
+						</div>
+
+						<div class="cartao-giratorio-atras">
+							<h2>Carol Macedo</h2>
+							<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, aut, reiciendis accusantium
+								minus vero
+								commodi et aliquam facilis quia deleniti recusandae odit ut vitae! Reprehenderit quis minima
+								laboriosam
+								quo totam.</p>
+							<i class="bi bi-quote"></i>
+						</div>
+					</div>
+				</div>
+
+				<div class="cartao-giratorio">
+					<div class="cartao-giratorio-interno">
+
+						<div class="cartao-giratorio-frente">
+							<img src="img/clientes/pessoa5.jpeg" alt="">
+							<span class="nome">Sarah Farias</span>
+							<br>
+							<span class="regiao">Campina Grande / PB</span>
+						</div>
+
+						<div class="cartao-giratorio-atras">
+							<h2>Sarah Farias</h2>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem a maiores totam quam dolorum eum
+								aliquam
+								exercitationem porro dolor enim, sint aspernatur nostrum magni pariatur facilis itaque
+								consequatur eos.
+								Nobis!</p>
+							<i class="bi bi-quote"></i>
+						</div>
+					</div>
+				</div>
+
+				<div class="cartao-giratorio">
+					<div class="cartao-giratorio-interno">
+
+						<div class="cartao-giratorio-frente">
+							<img src="img/clientes/pessoa6.jpeg" alt="">
+							<span class="nome">Caio Ribeiro</span>
+							<br>
+							<span class="regiao">Brasília / DF</span>
+						</div>
+
+						<div class="cartao-giratorio-atras">
+							<h2>Caio Ribeiro</h2>
+							<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum nesciunt perspiciatis
+								laudantium sunt
+								explicabo, consequatur ea doloribus quis fuga at corrupti officiis, adipisci veniam non ipsum
+								libero?
+								Cupiditate, natus repellat!</p>
+							<i class="bi bi-quote"></i>
+						</div>
+					</div>
+				</div>
+			</article>
+		</section>
+
+		<section id="contato">
+			<div>
+				<h2>Contate-nos</h2>
+
+				<article class="area-contato">
+					<form action="mailto: vitoriabarbosa2474@gmail.com" method="post" enctype="text/plain">
+						<div class="label-float">
+							<input type="text" id="texto" name="texto" placeholder=" " maxlength="50" required>
+							<label for="texto">Nome</label>
+						</div>
+
+						<div class="label-float">
+							<input type="email" class="text" name="email" placeholder=" " maxlength="50" required>
+							<label for="email">E-mail</label>
+						</div>
+
+						<div class="label-float">
+							<input type="text" class="numero" name="telefone" placeholder=" " maxlength="14" required>
+							<label for="telefone">Telefone</label>
+						</div>
+
+						<div class="label-float">
+							<textarea id="text" name="texto" placeholder=" " required></textarea>
+							<label for="texto">Mensagem</label>
+						</div>
+
+						<div class="botao-enviar">
+							<input onclick="return validarForm()" and onclick="numero()" and onclick="text()" type="submit"
+								value="Enviar">
+						</div>
+					</form>
+
+					<div class="contato-infos">
+						<div>
+							<h3>Contato</h3>
+							<p>contato@globaltech.com</p>
+						</div>
+						<div>
+							<h3>Localização</h3>
+							<p>Campina Grande, <br> Paraíba</p>
+						</div>
+						<div class="redes-sociais">
+							<span><i class="bi bi-facebook"></i></span>
+							<span><i class="bi bi-instagram"></i></span>
+							<span><i class="bi bi-twitter"></i></span>
+						</div>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<section id="ondeEstamos">
+			<div class="div-h2">
+				<h2>Conheça nossa sede!</h2>
+			</div>
+
+			<div class="localizacao">
+				<h3>Encontre a melhor rota, e venha conhecer a <span>GlobalTech</span>!</h3>
+				<div class="mapa">
+					<iframe title="mapa"
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.0067655971716!2d-35.918366186031264!3d-7.240065573118649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7aea0a6fab8137d%3A0x24f6e08262999405!2sIFPB%20Campina%20Grande!5e0!3m2!1spt-BR!2sbr!4v1654210278943!5m2!1spt-BR!2sbr"
+						width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
+		</section>
+
+		<section id="area-cliente">
+			<div>
+				<h2>Área do cliente</h2>
+				<hr>
+				<ul>
+					<li>Acesse o Serviço</li>
+					<li>Acompanhe o Processo</li>
+					<li>Pague Online</li>
+					<li>Receba Ofertas</li>
+					<li>Converse com Especialistas</li>
+				</ul>
+				<a href="login.html"><button>Faça Login</button></a>
+			</div>
+			<div class="img-area-cliente">
+				<img src="img/area-cliente.png" alt="cliente" />
+			</div>
+		</section>
+	</main>
+
+	<div class="topo">
+		<span id="ir-topo" onclick="scrollToTop()">↑</span>
+	</div>
+
+	<footer>
+		<section class="sitemap">
+			<div class="sobre-empresa">
+				<h2>Empresa</h2>
+				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora autem labore vero accusamus consectetur
+					minus nemo recusandae animi corrupti aperiam ullam dignissimos culpa, officia, eius blanditiis qui beatae
+					eligendi. Exercitationem?</p>
+			</div>
+
+			<div class="servico-empresa">
+				<h2>Serviços</h2>
+				<ul>
+					<li><a href="#manutencao">Manutenção</a></li>
+					<li><a href="#reparos">Reparos</a></li>
+					<li><a href="#recuperarDados">Recuperação de dados</a></li>
+				</ul>
+			</div>
+
+			<div class="contato-empresa">
+				<h2>Contato</h2>
+				<span class="contato-footer">
+					<i class="bi bi-envelope"></i>
+					<p>contato@globaltech.com.br</p>
+				</span>
+
+				<span class="contato-footer">
+					<i class="bi bi-telephone"></i>
+					<p>(83) 0000-0000</p>
+				</span>
+
+				<span class="contato-footer">
+					<i class="bi bi-whatsapp"></i>
+					<p>(83) 90000-0000</p>
+				</span>
+			</div>
+
+			<div>
+				<iframe title="mapa" class="mapa-rodape"
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.0067655971716!2d-35.918366186031264!3d-7.240065573118649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7aea0a6fab8137d%3A0x24f6e08262999405!2sIFPB%20Campina%20Grande!5e0!3m2!1spt-BR!2sbr!4v1654210278943!5m2!1spt-BR!2sbr"
+					width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+		</section>
+
+		<hr>
+		<div class="rodape">
+			<p class="copyright"> © Copyright 2022 - <a href="#home">GlobalTech</a>.</p>
+			<div class="links-footer">
+				<ul>
+					<li><a href="#home">Home</a><span class="barrinha">|</span></li>
+					<li><a href="#quemSomos">Quem Somos</a><span class="barrinha">|</span></li>
+					<li><a href="#servicos">Serviços</a><span class="barrinha">|</span></li>
+					<li><a href="#clientes">Clientes</a><span class="barrinha">|</span></li>
+					<li><a href="#contato">Contato</a><span class="barrinha">|</span></li>
+					<li><a href="#ondeEstamos">Onde Estamos</a></li>
+				</ul>
+			</div>
+		</div>
+		<span class="termos-de-uso">
+			<a href="privacidade.html"> Política de Privacidade </a>
+			<span class="barrinha">|</span>
+			<a href="termos.html"> Termos de Uso </a>
+		</span>
+	</footer>
+	<script src="script.js"></script>
+	<script src="scroll.js"></script>
 </body>
 
 </html>

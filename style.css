@@ -4,6 +4,7 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #barraNav {
@@ -21,8 +22,6 @@
   top: 0;
   height: 15vh; 
 }
-
-/* .menuFixo ul {} */
 
 .menuFixo ul li a { 
   font-size: 0.85rem;
@@ -85,11 +84,7 @@
   justify-content: flex-end;
 }
 
-.menu-nav li {
-  display: flex;
-  align-items: center;
-}
-
+.menu-nav li { display: flex; align-items: center; }
 .menu-nav a {
   font-size: 1rem;
   /* letter-spacing: 0.09em; */
@@ -121,11 +116,7 @@
 	transition: 0.3s;
 } */
 
-.menu-nav a:hover {      
-  color: #e580e5;
-  transition: 0.3s;
-}
-
+.menu-nav a:hover { color: #e580e5; transition: 0.3s; }
 .menu-nav span, .servico-reserva, .menu-nav ul .casinha { display: none; }
 
 .menu-nav .detalhes-servico:hover span {
@@ -156,12 +147,7 @@
   text-shadow: purple 9px 0.7rem 0.9rem;
 }
 
-.digitando {
-  position: absolute;
-  top: 40vh;
-  display: flex;
-}
-
+.digitando { position: absolute; top: 40vh; display: flex; }
 .digitando h1 {
   margin: 0 5rem;
   padding: 0.5rem;
@@ -198,8 +184,6 @@
   background-size: cover;
   background-position: center;
 }
-
-/* #quemSomos {} */
 
 .conteudo {
   position: relative;
@@ -238,7 +222,6 @@
 }
 
 .conteudo .slider .slide .captura h2 { font-size: 3rem; }
-
 .conteudo .slider .slide .captura p { font-size: 1.2rem; }
 
 .conteudo .slider .slide.slide1 {
@@ -378,11 +361,7 @@
 }
 
 #servicos .card:hover .card-info { transform: translateY(0px); }
-
-#servicos .card:hover .card-img {
-  transform: translateX(350px);
-  transition-delay: 0s;
-}
+#servicos .card:hover .card-img { transform: translateX(350px); transition-delay: 0s;}
 
 .area-pode-confiar, .area-nosso-diferencial { padding: 3rem 2rem;}
 
@@ -450,10 +429,7 @@
   margin: 0.2rem;
 }
 
-.nosso-diferencial-info {
-  display: flex;
-  justify-content: center;
-}
+.nosso-diferencial-info { display: flex; justify-content: center; }
 
 .nosso-diferencial {
   display: flex;
@@ -532,10 +508,7 @@
   filter: drop-shadow(2px 4px 6px black);
 }
 
-.titulo-campo {
-  height: 40vh;
-  width: 100%;
-}
+.titulo-campo { height: 40vh; width: 100%; }
 
 #manutencao, #reparos, #recuperarDados { margin: 6rem 0; }
 
@@ -579,11 +552,7 @@
   cursor: pointer;
 }
 
-.campo-icon i {
-	font-size: 1.5rem;
-  color: purple;
-}
-
+.campo-icon i { font-size: 1.5rem; color: purple; }
 .campo-titulo {
   font-size: 1.1rem;
   text-transform: uppercase;
@@ -659,7 +628,6 @@
 }
 
 .cartao-giratorio:hover .cartao-giratorio-interno { transform: rotateY(180deg); }
-
 .cartao-giratorio-frente, .cartao-giratorio-atras {
   position: absolute;
   width: 100%;
@@ -774,10 +742,7 @@ form {
   justify-content: center;
 }
 
-.label-float{
-  position: relative;
-  padding-top: 1rem;
-}
+.label-float { position: relative; padding-top: 1rem; }
 
 .label-float input, .label-float textarea{
   transition: all .3s ease-out;
@@ -793,7 +758,6 @@ form {
 }
 
 .label-float input:focus, .label-float textarea:focus { border-bottom: 0.1rem solid purple; }
-
 .label-float input::placeholder, .label-float textarea::placeholder { color:transparent; }
 
 .label-float label{
@@ -833,8 +797,6 @@ form {
   height: 100%; 
 }
 
-/* .contato-infos div {} */
-
 .contato-infos div h3 {
   font-size: 2.5rem;
   font-weight: bold;
@@ -851,18 +813,13 @@ form {
 	justify-content: space-between;
 }
 
-.redes-sociais span {
-	width: 3rem;
-	text-align: center;
-}
-
+.redes-sociais i { font-size: 2rem; }
+.redes-sociais span { width: 3rem; text-align: center; }
 .redes-sociais span :hover {
 	color: purple;
 	font-size: 2.5rem;
 	transition: 0.5s;
 }
-
-.redes-sociais i { font-size: 2rem; }
 
 .botao-enviar input{
   width: 20rem;
@@ -925,10 +882,7 @@ form {
   color: #747474;
 }
 
-#ondeEstamos h3 span {
-  font-weight: 800;
-  color: #d85d60;
-}
+#ondeEstamos h3 span { font-weight: 800; color: #d85d60; }
 
 .mapa {
   margin: 2rem;
@@ -938,11 +892,7 @@ form {
   box-shadow: 0.1rem 0.5rem 1rem black;
 }
 
-iframe {
-  width: 100%;
-  height: 100%;
-  border-radius: 1rem;
-}
+iframe { width: 100%; height: 100%; border-radius: 1rem; }
 
 #area-cliente {
   background: #ffffff3b url("img/fundo-area-cliente.jpeg") no-repeat;
@@ -974,7 +924,6 @@ iframe {
 }
 
 #area-cliente ul {  margin: 5rem; }
-
 #area-cliente li {
   list-style-type: square;
   color: white;
@@ -1001,11 +950,7 @@ iframe {
   overflow: hidden;
 }
 
-#area-cliente button:hover {
-  color: white;
-  transition: width 1s;
-}
-
+#area-cliente button:hover { color: white; transition: width 1s; }
 #area-cliente button::before {
   content:"";
   position: absolute;
@@ -1037,7 +982,6 @@ iframe {
 }
 
 .topo :hover { background: black; }
-
 .topo :active {
   box-shadow: black 0rem 0.1rem 0.1rem;
   transition: 0.2s;
@@ -1086,20 +1030,16 @@ footer {
 }
 
 .sobre-empresa { width: 14rem; }
-
 .sobre-empresa p { line-height: 1.5rem; }
-
 .servico-empresa li { margin: 0 0 1.2rem 0; }
-
-/* .servico-empresa, .contato-empresa { text-align: center; } */
-
 .servico-empresa a { color: #fff; }
-
 .servico-empresa a:hover { 
-	color: #e580e5;
+  color: #e580e5;
   transition: 0.3s;
 	text-decoration: underline;
 }
+
+/* .servico-empresa, .contato-empresa { text-align: center; } */
 
 .contato-empresa .contato-footer {
   display: flex;
@@ -1109,13 +1049,9 @@ footer {
 }
 
 .contato-empresa .contato-footer p { padding-left: 0.5rem; }
-
 .contato-empresa .contato-footer i { color: #e580e5; }
 
-.mapa-rodape {
-	width: 25rem;
-  height: 18rem;
-}
+.mapa-rodape { width: 25rem; height: 18rem; }
 
 .rodape {
 	display: flex;
@@ -1126,14 +1062,12 @@ footer {
 /* .rodape p { font-size: 1.5rem; } */
 
 .rodape .copyright { font-size: 1rem; }
-
 .rodape .copyright a {
 	color: white; 
 	text-decoration: none;
 }
 
 .links-footer ul { display: flex; }
-
 .links-footer li {
   list-style: none;
   display: flex;
@@ -1155,10 +1089,7 @@ footer {
 
 .barrinha { margin: 0.5rem; }
 
-hr {
-  width: 100%;
-  margin: 2rem 0;
-}
+hr { width: 100%; margin: 2rem 0; }
 
 .termos-de-uso {
   width: 100%;
@@ -1170,13 +1101,11 @@ hr {
 }
 
 .termos-de-uso span { margin: 1rem; }
-
 .termos-de-uso a { color: #984d98; }
-
 .termos-de-uso a:hover { text-decoration: underline; }
 
 ::-webkit-scrollbar { width: 1.5rem; }
-
+::-webkit-scrollbar-track { background: black; }
 ::-webkit-scrollbar-thumb {
   background: white;
   border-radius: 1rem;
@@ -1184,13 +1113,7 @@ hr {
   border: 0.3rem solid black;
 }
 
-::-webkit-scrollbar-track { background: black; }
-
-.celular-menu {
-  cursor: pointer;
-  display: none;
-}
-
+.celular-menu { cursor: pointer; display: none; }
 .celular-menu div {
   width: 30px;
   height: 3px;
@@ -1199,869 +1122,13 @@ hr {
   transition: 0.3s;
 }
 
-/* @media (max-width: 1200px){
-
-  details span {
-    width: 15vw;
-    top: 9vw;
-    height: 12vw;
-    right: 30vw;
-  }
-  
-  .menuFixo ul li details span {
-    width: 15vw;
-    height: 12vw;
-    top: 8vw;
-    right: 32vw;
-  }
-} */
-
-
-@media (max-width: 1000px){
-
-  /* .menuFixo ul {
-    width: 65vw;
-  }
-  
-  details span {
-    width: 16vw;
-    top: 9vw;
-    height: 13vw;
-    right: 29vw;
-  }
-
-  .menuFixo ul li details span {
-    width: 16vw;
-    height: 13vw;
-    top: 8.5vw;
-    right: 32vw;
-  } */
-
-  #servicos .area-card {
-    flex-wrap: wrap;
-  }
- 
-}
-
-@media (max-width: 900px){
-  
-  .menu-nav .detalhes-servico {
-    display: none;
-  }
-
-  .servico-reserva {
-    display: block;
-  }
-
-  body{
-    overflow-x: hidden;
-  }
-
-  /* #barraNav {
-    height: 15vh;
-  } */
-
-  .efeito-logo a {
-    font-size: 1.5rem;
-  }
-
-  .efeito-logo .logo-img i {
-		font-size: 2rem;
-  }
-
-  .menu-nav a {
-    /* text-decoration: none; */
-    color: white;
-    font-size: 1.2rem;
-  }
-
-  .menu-nav li:hover {
-    background: transparent;
-    box-shadow: 0 0 0 transparent;
-  }
-
-  .menu-nav a:hover {
-    color: #e580e5;
-    transform: scale(1.1,1.1)
-  }
-
-  /* .menu-nav a i:hover {
-    color: purple;
-  } */
-
-  .menuFixo ul li a {
-    font-size: 1.2rem;
-  }
-
-  .menu-nav li i {
-		font-size: 1.5rem;
-  }
-
-	.menu-nav ul {
-		justify-content: space-around;
-		gap: 0;
-	}
-  
-  .lista {
-    position: absolute;
-    top: 12vh;
-    right: 0;
-    width: 50vw;
-    height: 80vh;
-    border-radius: 1vw;
-    background: #000000d1;
-    box-shadow: 0.1vw 0.1vw 10vw black;
-    flex-direction: column !important;
-    align-items: center;
-		justify-content: space-around;
-    margin-right: 0;
-    transform: translateX(100%);
-    transition: transform 0.3s ease-in;
-  }
-
-  .lista li {
-    margin-left: 0;
-    opacity: 0;
-    top: 0;
-  }
-
-  /* .lista li details span {
-    text-align: center;
-    position: relative;
-    top: 0;
-  } */
-
-  .celular-menu {
-    display: block;
-    position: relative;
-    right: -12rem;
-  }
-
-  .quem-somos h2 {
-    font-size: 4.5vw;
-  }
-
-  #servicos section h2 {
-    font-size: 4.5vw;
-  }
-  
-  #contato h2 {
-    font-size: 4.5vw;
-  }
-  
-  .area-contato {
-    width: 60vw;
-    height: 300px;
-    align-items: center;
-  }
-
-  .area-contato form {
-    height: 200px;
-  }
-
-  .contato-infos {
-    height: 250px;
-    margin: 0;
-  }
-  
-  .cartao-giratorio {
-    width: 25vw;
-    height: 35vh;
-    margin: 2vw;
-  }
-
-  .cartao-giratorio-frente img {
-    width: 25vw;
-    height: 35vh;
-  }
-
-  #ondeEstamos h2 {
-    font-size: 4.5vw;
-    margin: 6vw;
-  }
-
-  #ondeEstamos .localizacao {
-    background-position: 90%;
-    padding: 2vw;
-    height: 100%;
-  }
-
-  #ondeEstamos h3 {
-    font-size: 4vw;
-    width: 50vw;
-  }
-
-  .mapa {
-    margin: 8vw;
-    width: 80vw;
-    height: 40vw;
-  }
-  
-
-  .sitemap {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    margin: 1rem;
-    text-align: center;
-		font-size: 1rem;
-  }
-
-  .sitemap h2 {
-    font-size: 1.8rem;
-    margin: 1rem 0;
-  }
-
-  .sitemap div {
-    margin: 1rem 0;
-    width: 50rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .sobre-empresa p {
-    width: 20rem;
-  }
-
-  .contato-empresa span {
-    display: flex;
-    align-items: center;
-    margin: 2rem;
-    justify-content: center;
-  }
-
-  .contato-empresa span p {
-    font-size: 1.2rem;
-  }
-
-  .contato-empresa span i {
-    font-size: 1.1rem;
-  }
-
-  .mapa-rodape {
-    width: 25rem;
-    height: 15rem;
-  }
-
-  .botao-topo {
-    padding: 1.5rem;
-    width: 2rem;
-    height: 2rem;
-    font-size: 1.5rem;
-    background: #000000b0;
-  }
-
-  .rodape {
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 15vh;
-  }
-
-  .rodape p {
-    font-size: 2rem;
-    margin: 2rem;
-  }
-
-  .links-footer ul {
-    margin: 1rem;
-  }
-
-  .links-footer ul li a {
-    font-size: 0.7rem;
-  }
-
-  hr {
-    margin: 3rem 0;
-  }
-
-  .termos-de-uso a {
-    font-size: 1rem;
-    margin: 1rem 0;
-  }
-  
-}
-
-.lista.active {
-  transform: translateX(0);
-}
-
+.lista.active { transform: translateX(0) }
 
 @keyframes navLinkFade {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
+  from { opacity: 0; transform: translateX(50px); }
+  to { opacity: 1; transform: translateX(0); }
 }
 
 .celular-menu.active .linha-1 { transform: rotate(-45deg) translate(-8px, 8px); }
-
 .celular-menu.active .linha-2 { opacity: 0; }
-
 .celular-menu.active .linha-3 { transform: rotate(45deg) translate(-5px, -7px); } 
-
-
-/* 
-
-@media only screen and (max-width: 800px){
-  .area-pode-confiar, .area-nosso-diferencial {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .area-pode-confiar h2, .area-nosso-diferencial h2 {
-    margin: 5vw 0;
-    font-size: 4vw;
-    font-weight: 800;
-  }
-
-  .area-pode-confiar h2 span, .area-nosso-diferencial h2 span {
-    font-weight: 900;
-    font-size: 5vw;
-  }
-
-
-  .cartao-giratorio {
-    width: 200px;
-    height: 200px;
-  }
-
-  .cartao-giratorio-frente img {
-    width: 200px;
-    height: 200px;
-  }
-
-  .campo {
-    height: 220px;
-  }
-}
-
-*/
-
-@media only screen and (max-width: 600px){
-
-	.menu-nav ul {
-		width: 100%;
-		height: 60vh;
-	}
-
-  .conteudo .slider {
-    height: 50%;
-  }
-  
-  .conteudo .slider .slide.slide1 {
-    background-repeat: no-repeat;
-    background-size: 100vw;
-  }
-
-  .conteudo .slider .slide.slide2 {
-    background-size: 100vw;
-    background-repeat: no-repeat;
-  }
-
-  .conteudo .slider .slide.slide3 {
-    background-size: 100vw;
-    background-repeat: no-repeat;
-  }
-
-  .conteudo .slider .slide.slide4 {
-    background-size: 100vw;
-    background-repeat: no-repeat;
-  }
-
-  .quem-somos {
-    position: relative;
-    top: -30vw;
-  }
-
-  .quem-somos h2 {
-    font-size: 6vw;
-  }
-
-  .quem-somos p {
-    font-size: 3vw;
-    padding: 3vw;
-  }
-
-  .area-pode-confiar {
-    position: relative;
-    top: -25vw;
-    margin-bottom: 0;
-  }
-
-  .nosso-diferencial-info {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-
-  .nosso-diferencial-info .span-svg {
-    height: 22vw;
-    width: 22vw;
-    right: 0;
-    top: 12vw;
-  }
-
-  .nosso-diferencial-info .span-svg svg {
-    width: 10vw;
-    height: 10vw;
-  }
-
-  .nosso-diferencial {
-    width: 65vw;
-    height: 40vw;
-    background: white;
-    margin: 1vw;
-    padding: 1vw;
-    left: 0;
-  }
-  
-  .nosso-diferencial h3 {
-    font-size: 3vw;
-    margin: 1vw;
-  }
-
-  .nosso-diferencial h3 span {
-    font-size: 5vw;
-    margin: 2vw;
-  }
-  
-
-  .pode-confiar-info {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .pode-confiar-info .span-svg {
-    position: relative;
-    right: 0;
-    top: 9vw;
-  }
-
-  .pode-confiar-info .span-svg svg {
-    width: 13vw;
-    height: 13vw;
-  }
-
-  .pode-confiar {
-    width: 50vw;
-    height: 22vw;
-  }
-
-  .pode-confiar h3 {
-    font-size: 3.5vw;
-  }
-
-  .pode-confiar h3 span {
-    font-size: 5.5vw;
-    font-weight: bold;
-    margin: 0.5vw;
-  }
-
-  .nosso-diferencial-info .span-svg {
-    height: 22vw;
-    width: 22vw;
-    right: 0;
-    top: 12vw;
-  }
-
-  .nosso-diferencial-info .span-svg svg {
-    width: 10vw;
-    height: 10vw;
-  }
-
-  .nosso-diferencial {
-    width: 65vw;
-    height: 40vw;
-    background: white;
-    margin: 1vw;
-    padding: 1vw;
-    left: 0;
-  }
-  
-  .nosso-diferencial h3 {
-    font-size: 3vw;
-    margin: 1vw;
-  }
-
-  .nosso-diferencial h3 span {
-    font-size: 5vw;
-    margin: 2vw;
-  }
-  
-
-    #servicos section h2 {
-    font-size: 6vw;
-    margin-top: 0;
-    margin-bottom: 5vw;
-  }
-  
-  #servicos .area-card {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #servicos .card {
-    width: 300px;
-    height: 250px;
-    margin: 5vw 0;
-  }
-
-  #servicos .card-info {
-    transform: translateY(-250px);
-  }
-
-  #servicos .card-titulo {
-    font-size: 4vw;
-    padding: 4vw;
-  }
-
-  #servicos .card-descricao {
-    padding: 3vw;
-    font-size: 2vw;
-  }
-  
-  #servicos .card .saiba-mais {
-    padding: 2vw;
-    width: 30vw;
-    font-size: 2vw;
-  }
-
-  #servicos .card:hover .card-img {
-    transform: translateX(300px);
-    transition-delay: 0s;
-  }
-
-  .titulo-campo {
-    height: 40vh;
-  }
-
-  #clientes h1 {
-    text-align: center;
-    color: white;
-    font-size: 5vw;
-    padding: 2vw;
-  }
-
-  .cartao-giratorio .cartao-giratorio-atras h2 {
-    font-size: 4vw;
-    font-weight: bold;
-    padding: 4vw;
-  }
-  
-  .cartao-giratorio .cartao-giratorio-atras p {
-    font-size: 3vw;
-    padding: 3vw;
-  }
-  
-  .cartao-giratorio .cartao-giratorio-atras svg {
-    transform: rotate(180deg);
-    width: 9vw;
-    height: 9vw;
-  }
-
-  .area-contato {
-    width: 70vw;
-    height: 60vh;
-    padding: 2vw 0;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  form {
-    width: 60vw;
-    height: 40vh;
-  }
-
-  .label-float input, .label-float textarea {
-    padding: 1vw 0;
-    font-size: 4vw;
-  }
-
-  .label-float label {
-    font-size: 4vw;
-    margin-top: 2vw;
-  }
-
-  .label-float input:focus + label,
-  .label-float input:not(:placeholder-shown) + label{
-    font-size: 2.2vw;
-  }
-  
-  .label-float textarea:focus + label,
-  .label-float textarea:not(:placeholder-shown) + label{
-    font-size: 2.2vw;
-  }
-
-  .botao-enviar {
-    display: flex;
-    justify-content: center;
-  }
-
-  .contato-infos {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1vw;
-    gap: 5vw;
-  }
-
-  #area-cliente {
-    flex-direction: column;
-    padding: 2vw 0;
-    justify-content: center;
-    height: 100vh;
-  }
-
-  #area-cliente h2 {
-    font-size: 7vw;
-  }
-
-  #area-cliente hr {
-    height: 10px;
-    width: 60px;
-  }
-
-  #area-cliente ul {
-    margin: 9vw 0;
-}
-
-  #area-cliente ul li {
-    font-size: 4vw;
-    margin: 2vw;
-  }
-
-  #area-cliente button {
-    width: 70vw;
-    font-size: 4vw;
-    padding: 3vw;
-    position: relative;
-    bottom: -40vh;
- }
-  
-  #area-cliente .img-area-cliente {
-    width: 100%;
-  }
-
-}
-
-
-/*
-
-@media only screen and (max-width: 500px){
-
-  .titulo-campo {
-    height: 30vh;
-  }
-
-  .titulo-campo-fundo h2 {
-    font-size: 5vw;
-  }
-
-  .campo {
-    height: 220px;
-    margin: 2vw;
-    width: 80vw;
-  }
-
-  .campo-svg {
-    width: 10vw;
-    height: 10vw;
-  }
-
-  .campo-svg svg {
-    width: 4.5vw;
-    height: 4.5vw;
-  }
-
-  .campo-saiba-mais {
-    padding: 1vw;
-    width: 25vw;
-  }
-  
-  #ondeEstamos .div-h2 {
-    background-position: 20%;
-    height: 15vh;
-  }
-
-  #ondeEstamos h2 {
-    font-size: 7vw;
-    margin: 9vw;
-  }
-
-  #ondeEstamos .localizacao {
-    background-size: 200%;
-    background-position: 80%;
-    height: 70vh;
-    padding: 2vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  #ondeEstamos h3 {
-    font-size: 6vw;
-    font-weight: 800;
-    width: 70vw;
-    margin: 5vw;
-  }
-
-  .mapa {
-    margin: 10vw 7vw;
-    width: 80vw;
-    height: 40vw;
-  }
-
-  .rodape p {
-    font-size: 3vw;
-    margin: 1vw;
-  }
-
-  .links-footer ul {
-    margin: 1vw;
-  }
-
-  .links-footer ul li a {
-    font-size: 1.8vw;
-  }
-
-  .termos-de-uso a {
-    font-size: 3vw;
-    margin: 2vw 0;
-  }
-
-  #home {
-    width: 100%;
-    height: 65vh;
-  }
-
-  .conteudo {
-    height: 40vh;
-  }
-
-  
-  
-}
-
-
-@media only screen and (max-width: 400px){
-
-  #barraNav {
-    height: 13vh;
-  }
-
-  .logo-nome {
-    font-size: 6vw;
-  }
-
-  .logo-img svg {
-    width: 18vw;
-    height: 18vw;
-  }
-  
-  .efeito-logo a {
-    font-size: 5vw;
-  }
-
-  .efeito-logo .logo-img svg {
-    width: 10vw;
-    height: 10vw;
-  }
-
-  .celular-menu {
-    display: block;
-    position: relative;
-    right: -10vw;
-  }
-
-  .digitando {
-    display: flex;
-    width: 295px;
-  }
-  
-  .digitando h1 {
-    margin: 0 2vw;
-    padding: 0.5vw;
-    color: white;
-    overflow: hidden;
-    border-right: 1vw solid purple;
-    white-space: nowrap;
-    text-transform: uppercase;
-    font-size: 3.5vw;
-  }
-
-  .botao-topo {
-    padding: 2vw;
-    margin: 3vw;
-    width: 8vw;
-    height: 8vw;
-    font-size: 10vw;
-    background: #000000b0;
-  }
-
-  .titulo-campo {
-    height: 20vh;
-  }
-
-  .titulo-campo-fundo h2 {
-    font-size: 5vw;
-  }
-
-  .campo {
-    height: 150px;
-    margin: 2vw;
-    width: 80vw;
-  }
-
-  .campo-svg {
-    width: 10vw;
-    height: 10vw;
-  }
-
-  .campo-svg svg {
-    width: 4.5vw;
-    height: 4.5vw;
-  }
-
-  .campo-titulo{
-    font-size: 4vw;
-  }
-
-  .campo-texto {
-    font-size: 3vw;
-  }
-
-  .campo-saiba-mais {
-    padding: 2vw;
-    width: 25vw;
-    font-size: 2vw;
-  }
-
-  #contato h2 {
-    font-size: 6vw;
-  }
-
-  .area-contato {
-    width: 300px;
-    height: 310px;
-  }
-
-  .area-contato form {
-    height: 500px;
-  }
-
-  .botao-enviar input {
-    width: 200px;
-  }
-} 
-*/

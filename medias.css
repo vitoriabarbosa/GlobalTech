@@ -1,0 +1,405 @@
+/* @MEDIAS */
+
+@media screen and (min-width: 1024px){
+
+  .menuFixo ul { width: 65vw; }
+  
+  details span {
+    width: 16vw;
+    top: 9vw;
+    height: 13vw;
+    right: 29vw;
+  }
+
+  .menuFixo ul li details span {
+    width: 16vw;
+    height: 13vw;
+    top: 8.5vw;
+    right: 32vw;
+  }
+
+  #servicos .area-card { flex-wrap: wrap; }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px){
+  
+  body { overflow-x: hidden; }
+
+  .menu-nav .detalhes-servico { display: none; }
+
+  .servico-reserva { display: block; }
+
+  /* #barraNav { height: 15vh; } */
+
+  .efeito-logo a { font-size: 1.5rem; }
+  .efeito-logo .logo-img i { font-size: 2rem; }
+
+  .menuFixo ul li a { font-size: 1.2rem; }
+  .menu-nav ul { justify-content: space-around; gap: 0;	}
+  .menu-nav li i { font-size: 1.5rem; }
+  .menu-nav li:hover { background: transparent; box-shadow: 0 0 0 transparent; }
+  .menu-nav a { color: white; font-size: 1.2rem; }
+  .menu-nav a:hover { color: #e580e5; transform: scale(1.1,1.1) }
+
+  /* .menu-nav a i:hover {
+    color: purple;
+  } */
+  
+  .lista {
+    position: absolute;
+    top: 12vh;
+    right: 0;
+    width: 50vw;
+    height: 80vh;
+    border-radius: 1vw;
+    background: #000000d1;
+    box-shadow: 0.1vw 0.1vw 10vw black;
+    flex-direction: column !important;
+    align-items: center;
+		justify-content: space-around;
+    margin-right: 0;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+  }
+
+  .lista li { margin-left: 0; opacity: 0; top: 0; }
+
+  /* .lista li details span {
+    text-align: center;
+    position: relative;
+    top: 0;
+  } */
+
+  .celular-menu {
+    display: block;
+    position: relative;
+    right: -12rem;
+  }
+
+  .quem-somos h2 { font-size: 4.5vw; }
+
+  #servicos section h2 { font-size: 4.5vw; }
+  
+  #contato h2 { font-size: 4.5vw; }
+  
+  .area-contato {
+    width: 60vw;
+    height: 300px;
+    align-items: center;
+  }
+
+  .area-contato form { height: 200px; }
+
+  .contato-infos { height: 250px; margin: 0; }
+  
+  .cartao-giratorio {
+    width: 25vw;
+    height: 35vh;
+    margin: 2vw;
+  }
+
+  .cartao-giratorio-frente img { width: 25vw; height: 35vh; }
+
+  #ondeEstamos h2 { font-size: 4.5vw; margin: 6vw; }
+  #ondeEstamos h3 { font-size: 4vw; width: 50vw; }
+
+  #ondeEstamos .localizacao {
+    background-position: 90%;
+    padding: 2vw;
+    height: 100%;
+  }
+
+  .mapa { margin: 8vw; width: 80vw; height: 40vw; }
+  
+  .sitemap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem;
+    text-align: center;
+		font-size: 1rem;
+  }
+
+  .sitemap h2 { font-size: 1.8rem; margin: 1rem 0; }
+  .sitemap div {
+    margin: 1rem 0;
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sobre-empresa p { width: 20rem; }
+
+  .contato-empresa span {
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+    justify-content: center;
+  }
+
+  .contato-empresa span p { font-size: 1.2rem; }
+  .contato-empresa span i { font-size: 1.1rem; }
+
+  .mapa-rodape { width: 25rem; height: 15rem; }
+
+  .botao-topo {
+    padding: 1.5rem;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    background: #000000b0;
+  }
+
+  .rodape {
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 15vh;
+  }
+
+  .rodape p { font-size: 2rem; margin: 2rem; }
+
+  .links-footer ul { margin: 1rem; }
+  .links-footer ul li a { font-size: 0.7rem; }
+
+  hr { margin: 3rem 0; }
+
+  .termos-de-uso a { font-size: 1rem; margin: 1rem 0; } 
+}
+
+
+@media screen and (max-width: 769px) and (min-width: 500px){
+
+  .menu-nav ul { width: 100%; height: 60vh; }
+
+  .conteudo .slider { height: 50%; }
+  .conteudo .slider .slide.slide1 {
+    background-repeat: no-repeat;
+    background-size: 100vw;
+  }
+
+  .conteudo .slider .slide.slide2 {
+    background-size: 100vw;
+    background-repeat: no-repeat;
+  }
+
+  .conteudo .slider .slide.slide3 {
+    background-size: 100vw;
+    background-repeat: no-repeat;
+  }
+
+  .conteudo .slider .slide.slide4 {
+    background-size: 100vw;
+    background-repeat: no-repeat;
+  }
+
+  .quem-somos { position: relative; top: -30vw; }
+  .quem-somos h2 { font-size: 6vw; }
+  .quem-somos p { font-size: 3vw; padding: 3vw; }
+
+  .area-pode-confiar { position: relative; top: -25vw; margin-bottom: 0; }
+
+  .nosso-diferencial-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .nosso-diferencial-info .span-svg {
+    height: 22vw;
+    width: 22vw;
+    right: 0;
+    top: 12vw;
+  }
+
+  .nosso-diferencial-info .span-svg svg { width: 10vw; height: 10vw; }
+  .nosso-diferencial {
+    width: 65vw;
+    height: 40vw;
+    background: white;
+    margin: 1vw;
+    padding: 1vw;
+    left: 0;
+  }
+  
+  .nosso-diferencial h3 { font-size: 3vw; margin: 1vw; }
+  .nosso-diferencial h3 span { font-size: 5vw; margin: 2vw; }
+
+  .pode-confiar-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pode-confiar-info .span-svg { position: relative; right: 0; top: 9vw; }
+  .pode-confiar-info .span-svg svg { width: 13vw; height: 13vw; }
+  .pode-confiar { width: 50vw; height: 22vw; }
+  .pode-confiar h3 { font-size: 3.5vw; }
+  .pode-confiar h3 span {
+    font-size: 5.5vw;
+    font-weight: bold;
+    margin: 0.5vw;
+  }
+
+  .nosso-diferencial-info .span-svg {
+    height: 22vw;
+    width: 22vw;
+    right: 0;
+    top: 12vw;
+  }
+
+  .nosso-diferencial-info .span-svg svg { width: 10vw; height: 10vw; }
+
+  .nosso-diferencial {
+    width: 65vw;
+    height: 40vw;
+    background: white;
+    margin: 1vw;
+    padding: 1vw;
+    left: 0;
+  }
+  
+  .nosso-diferencial h3 { font-size: 3vw; margin: 1vw; }
+  .nosso-diferencial h3 span { font-size: 5vw; margin: 2vw; }
+  
+  #servicos section h2 {
+    font-size: 6vw;
+    margin-top: 0;
+    margin-bottom: 5vw;
+  }
+  
+  #servicos .area-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #servicos .card { width: 300px; height: 250px; margin: 5vw 0; }
+  #servicos .card-info { transform: translateY(-250px); }
+  #servicos .card-titulo { font-size: 4vw; padding: 4vw; }
+  #servicos .card-descricao { padding: 3vw; font-size: 2vw; }
+  #servicos .card .saiba-mais { padding: 2vw; width: 30vw; font-size: 2vw; }
+  #servicos .card:hover .card-img { transform: translateX(300px); transition-delay: 0s; }
+
+  .titulo-campo { height: 40vh; }
+
+  #clientes h1 { text-align: center; color: white; font-size: 5vw; padding: 2vw; }
+
+  .cartao-giratorio .cartao-giratorio-atras h2 {
+    font-size: 4vw;
+    font-weight: bold;
+    padding: 4vw;
+  }
+  
+  .cartao-giratorio .cartao-giratorio-atras p { font-size: 3vw; padding: 3vw; }
+  .cartao-giratorio .cartao-giratorio-atras svg {
+    transform: rotate(180deg);
+    width: 9vw;
+    height: 9vw;
+  }
+
+  .area-contato {
+    width: 70vw;
+    height: 60vh;
+    padding: 2vw 0;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  form { width: 60vw; height: 40vh; }
+
+  .label-float input, .label-float textarea { padding: 1vw 0; font-size: 4vw; }
+  .label-float label { font-size: 4vw; margin-top: 2vw; }
+
+  .label-float input:focus + label,
+  .label-float input:not(:placeholder-shown) + label{ font-size: 2.2vw; }
+  
+  .label-float textarea:focus + label,
+  .label-float textarea:not(:placeholder-shown) + label{ font-size: 2.2vw; }
+
+  .botao-enviar { display: flex; justify-content: center; }
+
+  .contato-infos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1vw;
+    gap: 5vw;
+  }
+
+  #area-cliente {
+    flex-direction: column;
+    padding: 2vw 0;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  #area-cliente h2 { font-size: 7vw; }
+  #area-cliente hr { height: 10px; width: 60px; }
+  #area-cliente ul { margin: 9vw 0; }
+  #area-cliente ul li { font-size: 4vw; margin: 2vw; }
+  #area-cliente .img-area-cliente { width: 100%; }
+  #area-cliente button {
+    width: 70vw;
+    font-size: 4vw;
+    padding: 3vw;
+    position: relative;
+    bottom: -40vh;
+  }
+}
+  
+  /*  */
+  
+@media only screen and (max-width: 400px){
+
+  #barraNav { height: 13vh; }
+
+  .logo-nome { font-size: 6vw; }
+  .logo-img svg { width: 18vw; height: 18vw; }
+  
+  .efeito-logo a { font-size: 5vw; }
+  .efeito-logo .logo-img svg { width: 10vw; height: 10vw; }
+
+  .celular-menu { display: block; position: relative; right: -10vw; }
+
+  .digitando { display: flex; width: 295px; } 
+  .digitando h1 {
+    margin: 0 2vw;
+    padding: 0.5vw;
+    color: white;
+    overflow: hidden;
+    border-right: 1vw solid purple;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-size: 3.5vw;
+  }
+
+  .botao-topo {
+    padding: 2vw;
+    margin: 3vw;
+    width: 8vw;
+    height: 8vw;
+    font-size: 10vw;
+    background: #000000b0;
+  }
+
+  .titulo-campo { height: 20vh; }
+  .titulo-campo-fundo h2 { font-size: 5vw; }
+
+  .campo { height: 150px; margin: 2vw; width: 80vw; }
+  .campo-svg { width: 10vw; height: 10vw; }
+  .campo-svg svg { width: 4.5vw; height: 4.5vw; }
+  .campo-titulo{ font-size: 4vw; }
+  .campo-texto { font-size: 3vw; }
+  .campo-saiba-mais { padding: 2vw; width: 25vw; font-size: 2vw; }
+
+  #contato h2 { font-size: 6vw; }
+
+  .area-contato { width: 300px; height: 310px; }
+  .area-contato form { height: 500px; }
+
+  .botao-enviar input { width: 200px; }
+} 

@@ -4,7 +4,7 @@
 }
 
 .area-login {
-  background: url("img/fundo-login.jpeg") no-repeat;
+  background: url("../images/fundo-login.jpeg") no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;

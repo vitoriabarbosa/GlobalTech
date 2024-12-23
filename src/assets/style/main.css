@@ -20,7 +20,7 @@
   background: black;
   display: flex;
   top: 0;
-  height: 15vh; 
+  height: 12vh; 
 }
 
 .menuFixo ul li a { 
@@ -60,7 +60,7 @@
   animation: spin 3s linear infinite;
 }
 
-@keyframes spin { to{ transform: rotate(360deg) }; }
+@keyframes spin { to{ transform: rotate(360deg) } }
 
 .logo-nome {
   color: white;
@@ -179,7 +179,7 @@
   width: 100%;
   height: 100vh;
   background-attachment: fixed;
-  background-image: url("img/fundo-home.jpg");
+  background-image: url("../images/fundo-home.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -225,25 +225,25 @@
 .conteudo .slider .slide .captura p { font-size: 1.2rem; }
 
 .conteudo .slider .slide.slide1 {
-  background: url("img/slides/missao.webp") no-repeat;
+  background: url("../images/slides/missao.webp") no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .conteudo .slider .slide.slide2 {
-  background: url("img/slides/historia.jpg");
+  background: url("../images/slides/historia.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .conteudo .slider .slide.slide3 {
-  background: url("img/slides/valores.jpg");
+  background: url("../images/slides/valores.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .conteudo .slider .slide.slide4 {
-  background: url("img/slides/servicos.jpg");
+  background: url("../images/slides/servicos.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -513,19 +513,19 @@
 #manutencao, #reparos, #recuperarDados { margin: 6rem 0; }
 
 .titulo-campo.manutencao {
-  background: url("img/servicos/manutencao.jpg") no-repeat;
+  background: url("../images/servicos/manutencao.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .titulo-campo.reparos {
-  background: url("img/servicos/reparos.jpg") no-repeat;
+  background: url("../images/servicos/reparos.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .titulo-campo.recuperarDados {
-  background: url("img/servicos/recuperarDados.jpeg") no-repeat;
+  background: url("../images/servicos/recuperarDados.jpeg") no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -700,7 +700,7 @@
 }
 
 #contato {
-  background: rgba(0, 0, 0, 0.2) url("img/fundo-home.jpg");
+  background: rgba(0, 0, 0, 0.2) url("../images/fundo-home.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -848,7 +848,7 @@ form {
 }
 
 #ondeEstamos .localizacao {
-  background: url("img/onde-estamos.png") no-repeat;
+  background: url("../images/onde-estamos.png") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: 90%;
@@ -857,7 +857,7 @@ form {
 }
 
 #ondeEstamos .div-h2 {
-  background: #80008070 url("img/mapa-titulo.jpeg") no-repeat;
+  background: #80008070 url("../images/mapa-titulo.jpeg") no-repeat;
   background-size: cover;
   background-position: center;
   background-blend-mode: darken;
@@ -895,7 +895,7 @@ form {
 iframe { width: 100%; height: 100%; border-radius: 1rem; }
 
 #area-cliente {
-  background: #ffffff3b url("img/fundo-area-cliente.jpeg") no-repeat;
+  background: #ffffff3b url("../images/fundo-area-cliente.jpeg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;

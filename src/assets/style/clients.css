@@ -1,0 +1,120 @@
+#clientes {
+	background: #984d98;
+	padding: 5rem 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#clientes h1 {
+	text-align: center;
+	color: white;
+	font-size: 2.5rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	filter: drop-shadow(2px 4px 6px black);
+	padding: 2rem;
+}
+
+#clientes article {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 90%;
+}
+
+.cartao-giratorio {
+	width: 300px;
+	height: 300px;
+	perspective: 1000px;
+	background: transparent;
+	margin: 2rem;
+}
+
+.cartao-giratorio-frente img {
+	width: 300px;
+	height: 300px;
+	background-size: cover;
+	border-radius: 0.5rem;
+}
+
+.cartao-giratorio-interno {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 1s;
+	transform-style: preserve-3d;
+}
+
+.cartao-giratorio:hover .cartao-giratorio-interno { transform: rotateY(180deg); }
+.cartao-giratorio-frente, .cartao-giratorio-atras {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+	box-shadow: 0.1rem 0.5rem 1rem black;
+}
+
+.cartao-giratorio-frente {
+	background: #461f7c;
+	color: black;
+	border-radius: 1rem;
+}
+
+.cartao-giratorio-frente span {
+	position: absolute;
+	left: 1rem;
+	margin: 1rem;
+}
+
+.cartao-giratorio-frente span.nome {
+	position: absolute;
+	bottom: 2.5rem;
+	font-size: 1rem;
+	font-weight: 700;
+	color: black;
+	padding: 0.5rem;
+	background: white;
+}
+
+.cartao-giratorio-frente span.regiao {
+	position: absolute;
+	bottom: 1rem;
+	font-size: 0.8rem;
+	color: black;
+	padding: 0.5rem;
+	background: white;
+}
+
+.cartao-giratorio-atras {
+	background: #461f7c;
+	color: white;
+	transform: rotateY(180deg);
+	border-radius: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1.5rem;
+}
+
+.cartao-giratorio .cartao-giratorio-atras h2 {
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 1.5rem;
+}
+
+.cartao-giratorio .cartao-giratorio-atras p {
+	font-size: 1rem;
+	font-weight: 500;
+	color: #fff;
+	padding: 0 1.5rem;
+}
+
+.cartao-giratorio .cartao-giratorio-atras i {
+	transform: rotate(180deg);
+	font-size: 3rem;
+	color: white;
+}

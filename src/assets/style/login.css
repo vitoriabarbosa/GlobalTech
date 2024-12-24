@@ -33,7 +33,7 @@
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 800;
-    text-shadow: 0.1 0.5rem 0.1rem black;
+    text-shadow: 0.1rem 0.5rem 0.1rem black;
 }
 
 .login-logo .logo-img i.bi-globe2::before {

@@ -1,0 +1,88 @@
+#servicos {
+	padding: 3rem;
+}
+
+#servico article {
+	display: flex;
+	width: 200px;
+	flex-wrap: wrap;
+}
+
+#servicos .area-card {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 2rem 0;
+}
+
+#servicos .card {
+	position: relative;
+	width: 350px;
+	height: 300px;
+	background: #984d98;
+	color: #ffffff;
+	text-align: center;
+	border: 0.2rem solid #111;
+	overflow: hidden;
+	filter: drop-shadow(2px 4px 6px black);
+	margin: 1rem;
+}
+
+#servicos .card-info {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transform: translateY(-300px);
+	transition: transform 0.8s;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+#servicos .card-img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 0.8s 0.5s;
+}
+
+#servicos .card-titulo {
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	color: purple;
+	padding: 2rem;
+	width: 100%;
+	background: #ffffff;
+	filter: drop-shadow(2px 4px 6px black);
+	text-shadow: 0 0 black;
+}
+
+#servicos .card-descricao {
+	font-size: 1rem;
+}
+
+#servicos .card .saiba-mais {
+	display: inline;
+	background: #ffffff;
+	color: purple;
+	transition: 0.5s;
+	padding: 0.8vw 1rem;
+	width: 10rem;
+	font-size: 1rem;
+}
+
+#servicos .card .saiba-mais:hover {
+	background: purple;
+	color: #ffffff;
+}
+
+#servicos .card:hover .card-info {
+	transform: translateY(0px);
+}
+
+#servicos .card:hover .card-img {
+	transform: translateX(350px);
+	transition-delay: 0s;
+}

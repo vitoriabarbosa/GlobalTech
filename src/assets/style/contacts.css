@@ -1,0 +1,142 @@
+
+#contato {
+	background: rgba(0, 0, 0, 0.2) url("../images/fundo-home.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	/* background-blend-mode: darken; */
+	display: flex;
+	justify-content: space-evenly;
+	background-attachment: fixed;
+}
+
+#contato h2 {
+	font-size: 3rem;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: white;
+	filter: drop-shadow(2px 4px 6px black);
+	margin: 2rem;
+}
+
+.area-contato {
+	display: flex;
+	justify-content: space-evenly;
+	background: #ffffffde;
+	width: 60vw;
+	height: 80vh;
+	padding: 1rem;
+	border: 0.1rem solid black;
+	border-radius: 2rem;
+	box-shadow: 0.1rem 0.5rem 5rem black;
+	margin: 5rem;
+	align-items: center;
+}
+
+form {
+	height: 60vh;
+	width: 25rem;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.label-float { position: relative; padding-top: 1rem; }
+
+.label-float input, .label-float textarea{
+	transition: all .3s ease-out;
+	border-radius: 0;
+	width: 100%;
+	padding: 0.5rem 0;
+	font-size: 1rem;
+	margin-bottom: 2rem;
+	border: none;
+	border-bottom: 0.1rem solid black;
+	outline: none;
+	background: transparent;
+}
+
+.label-float input:focus, .label-float textarea:focus { border-bottom: 0.1rem solid purple; }
+.label-float input::placeholder, .label-float textarea::placeholder { color:transparent; }
+
+.label-float label{
+	pointer-events: none;
+	color: black;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 1.1rem;
+	margin-top: 1.6rem;
+	transition: all .3s ease-out;
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+}
+
+.label-float input:focus + label,
+.label-float input:not(:placeholder-shown) + label {
+	font-size: 0.9rem;
+	margin-top: 0;
+	color: purple;
+	font-weight: bold;
+}
+
+.label-float textarea:focus + label,
+.label-float textarea:not(:placeholder-shown) + label {
+	font-size: 0.9rem;
+	margin-top: 0;
+	color: purple;
+	font-weight: bold;
+}
+
+.contato-infos {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 1rem;
+	height: 100%;
+}
+
+.contato-infos div h3 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	margin: 0 0 1rem 0;
+}
+
+.contato-infos div p { font-size: 1.2rem; }
+
+.redes-sociais {
+	/* width: 15rem; */
+	height: 4rem;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.redes-sociais i { font-size: 2rem; }
+.redes-sociais span { width: 3rem; text-align: center; }
+.redes-sociais span :hover {
+	color: purple;
+	font-size: 2.5rem;
+	transition: 0.5s;
+}
+
+.botao-enviar input{
+	width: 20rem;
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 0.1rem;
+	padding: 1rem;
+	color: white;
+	background: purple;
+	border-radius: 1rem;
+	border: none;
+	cursor: pointer;
+	box-shadow: 0.1rem 0.5rem 0.8rem black;
+}
+
+.botao-enviar input:hover {
+	box-shadow: 0 0.1rem 0.1rem black;
+	transition: 0.5s;
+}

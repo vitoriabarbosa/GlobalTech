@@ -1,0 +1,240 @@
+.conteudo {
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+}
+
+.conteudo .slider {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 400%;
+	height: 100%;
+	float: left;
+	animation: anima 15s linear infinite;
+}
+
+.conteudo .slider .slide {
+	position: relative;
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+.conteudo .slider .slide .captura {
+	position: absolute;
+	bottom: 20vh;
+	left: 6rem;
+	right: 6rem;
+	padding: 3rem;
+	background: rgb(0, 0, 0, 0.5);
+	box-sizing: border-box;
+	transition: 0.8s;
+	color: white;
+}
+
+.conteudo .slider .slide .captura h2 {
+	font-size: 3rem;
+}
+
+.conteudo .slider .slide .captura p {
+	font-size: 1.2rem;
+}
+
+.conteudo .slider .slide.slide1 {
+	background: url("../images/slides/missao.webp") no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.conteudo .slider .slide.slide2 {
+	background: url("../images/slides/historia.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.conteudo .slider .slide.slide3 {
+	background: url("../images/slides/valores.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.conteudo .slider .slide.slide4 {
+	background: url("../images/slides/servicos.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+@keyframes anima {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -300%;
+	}
+}
+
+.quem-somos {
+	text-align: center;
+	padding: 2rem;
+	margin: 2rem;
+}
+
+.quem-somos h2, #servicos section h2 {
+	background: white;
+	color: purple;
+	padding: 2rem 0;
+	text-align: center;
+	font-size: 3rem;
+	text-transform: uppercase;
+	font-weight: 900;
+	text-shadow: 0.1rem 0.1rem 0.1rem black;
+}
+
+.quem-somos p {
+	font-size: 1.2rem;
+	line-height: 1.5;
+	margin: auto;
+	width: 80%;
+}
+
+.area-pode-confiar, .area-nosso-diferencial {
+	padding: 3rem 2rem;
+}
+
+.area-pode-confiar h2, .area-nosso-diferencial h2 {
+	padding: 0 0 7rem 0;
+	font-size: 2.1rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 0.1rem 0.1rem 0.1rem black;
+}
+
+.area-pode-confiar h2 span, .area-nosso-diferencial h2 span {
+	color: purple;
+	font-weight: 800;
+	font-size: 2.2rem;
+	text-shadow: 0.1rem 0.1rem 0.1rem black;
+}
+
+.pode-confiar-info {
+	display: flex;
+	justify-content: center;
+	padding-right: 4rem;
+}
+
+.pode-confiar-info .span-icon {
+	position: relative;
+	right: -12rem;
+	top: -2rem;
+}
+
+.pode-confiar-info .span-icon i {
+	font-size: 5rem;
+	color: purple;
+	filter: drop-shadow(0.2rem 0.2rem 0.2rem black);
+}
+
+.pode-confiar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	width: 260px;
+	height: 120px;
+	background: white;
+	margin: 1rem;
+	padding: 1.5rem;
+	border-radius: 1rem;
+	box-shadow: 0.1rem 0.5rem 1rem black;
+}
+
+.pode-confiar h3, .nosso-diferencial h3 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 1rem;
+	font-weight: 500;
+	text-align: center;
+}
+
+.pode-confiar h3 span {
+	color: purple;
+	font-size: 1.5rem;
+	font-weight: 800;
+	margin: 0.2rem;
+}
+
+.nosso-diferencial-info {
+	display: flex;
+	justify-content: center;
+}
+
+.nosso-diferencial {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	width: 300px;
+	height: 210px;
+	background: white;
+	margin: 1rem;
+	padding: 1.5rem 1rem;
+	position: relative;
+	left: -3rem;
+	box-shadow: 0.1rem 0.5rem 1rem black;
+}
+
+.nosso-diferencial-info .span-icon {
+	background: purple;
+	padding: 0.5rem;
+	height: 7rem;
+	width: 7rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	border: white solid 0.15rem;
+	box-sizing: border-box;
+	box-shadow: 0.1rem 0.2rem 0.5rem black;
+	position: relative;
+	z-index: 1;
+	right: -10rem;
+	top: -3rem;
+}
+
+.nosso-diferencial-info .span-icon i {
+	font-size: 2.5rem;
+	color: white;
+}
+
+.nosso-diferencial h3 span {
+	color: purple;
+	font-size: 1.1rem;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin: 1rem;
+}

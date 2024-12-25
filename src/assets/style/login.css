@@ -1,172 +1,171 @@
 * {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 .area-login {
-  background: url("../images/fundo-login.jpeg") no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
+	background: url("../images/fundo-login.jpeg") no-repeat center;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
 }
 
 .login-info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: #f7f7f7;
-  width: 40%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #f7f7f7;
+	width: 40%;
 }
 
 .login-logo {
-  display: flex;
-  /* justify-content: center; */
-  align-items: center;
-  width: 25rem;
-  margin: 0.5rem;
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	width: 25rem;
+	margin: 0.5rem;
 }
 
 .login-logo .logo-nome {
-    color: #800080;
-    text-decoration: none;
-    font-size: 1.5rem;
-    font-weight: 800;
-    text-shadow: 0.1rem 0.5rem 0.1rem black;
+	color: #800080;
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-weight: 800;
+	text-shadow: 0.1rem 0.5rem 0.1rem black;
 }
 
 .login-logo .logo-img i.bi-globe2::before {
-    cursor: pointer;
-		font-size: 3rem;
-		display: block;
-    color: purple;
-    filter: drop-shadow(0 0.1rem 0.8rem black);
-    animation: spin 3s linear infinite;
+	cursor: pointer;
+	font-size: 3rem;
+	display: block;
+	color: purple;
+	filter: drop-shadow(0 0.1rem 0.8rem black);
+	animation: spin 3s linear infinite;
 }
 
 .fazer-login h1 {
-  font-size: 2.2rem;
-  font-weight: bold;
-  width: 25rem;
+	font-size: 2.2rem;
+	font-weight: bold;
+	width: 25rem;
 }
 
 .fazer-login p {
-  font-size: 1rem;
+	font-size: 1rem;
 }
 
 .fazer-login p a {
-    text-decoration: none;
-    color: blue;
+	text-decoration: none;
+	color: blue;
 }
 
 .login form {
-  display: flex;
-  height: 40vh;
-  width: 25rem;
-  flex-direction: column;
-  /* justify-content: space-evenly; */
-  justify-content: center;
+	display: flex;
+	height: 40vh;
+	width: 25rem;
+	flex-direction: column;
+	/* justify-content: space-evenly; */
+	justify-content: center;
 	padding: 1rem;
 }
 
 .login-float {
-  position: relative;
-  padding-top: 1rem;
+	position: relative;
+	padding-top: 1rem;
 }
 
 .login-float input {
-  transition: all .3s ease-out;
-  border-radius: 0;
-  width: 100%;
-  padding: 0.5rem 0;
-  font-size: 1.1rem;
-  margin-bottom: 1rem;
-  border: none;
-  border-bottom: 0.1rem solid black;
-  outline: none;
-  background: transparent;
+	transition: all .3s ease-out;
+	border-radius: 0;
+	width: 100%;
+	padding: 0.5rem 0;
+	font-size: 1.1rem;
+	margin-bottom: 1rem;
+	border: none;
+	border-bottom: 0.1rem solid black;
+	outline: none;
+	background: transparent;
 }
 
-.login-float input:focus{
-  border-bottom: 0.1rem solid purple;
+.login-float input:focus {
+	border-bottom: 0.1rem solid purple;
 }
 
-.login-float input::placeholder{
-  color:transparent;
+.login-float input::placeholder {
+	color: transparent;
 }
 
-.login-float label{
-  pointer-events: none;
-  color: black;
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: 1.1rem;
-  margin-top: 0.9rem;
-  transition: all .3s ease-out;
-  -webkit-transition: all .3s ease-out;
-  -moz-transition: all .3s ease-out;
+.login-float label {
+	pointer-events: none;
+	color: black;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 1.1rem;
+	margin-top: 0.9rem;
+	transition: all .3s ease-out;
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
 }
 
 .login-float input:focus + label,
-.login-float input:not(:placeholder-shown) + label{
-  font-size: 0.9rem;
-  margin-top: 0;
-  color: purple;
-  font-weight: bold;
+.login-float input:not(:placeholder-shown) + label {
+	font-size: 0.9rem;
+	margin-top: 0;
+	color: purple;
+	font-weight: bold;
 }
 
 .botao-login {
 	margin: auto;
 }
 
-.botao-login input{
-  width: 20rem;
-  padding: 0.8rem;
-  color: white;
-  background: purple;
-  border-radius: 0.5rem;
-  border: none;
-  cursor: pointer;
-  box-shadow: 0.1rem 0.5rem 0.8rem black;
-  font-size: 1rem;
+.botao-login input {
+	width: 20rem;
+	padding: 0.8rem;
+	color: white;
+	background: purple;
+	border-radius: 0.5rem;
+	border: none;
+	cursor: pointer;
+	box-shadow: 0.1rem 0.5rem 0.8rem black;
+	font-size: 1rem;
 }
 
 .botao-login input:active {
-  box-shadow: 0 0 0 black;
-  transition: 0.4s;
+	box-shadow: 0 0 0 black;
+	transition: 0.4s;
 }
 
 .ou {
-  display: flex;
-  justify-content: center;
-  font-size: 1.1rem;
+	display: flex;
+	justify-content: center;
+	font-size: 1.1rem;
 }
 
 .ou hr {
-  width: 15rem;
-  margin: 1rem;
+	width: 15rem;
+	margin: 1rem;
 }
 
 .google, .facebook, .apple {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .google span, .facebook span, .apple span {
-  display: flex;
-  align-items: center;
-  gap: 0 1rem;
-  justify-content: center;
-  padding: 0.8rem;
-  border-radius: 1rem;
-  border: 0.1rem solid purple;
-  color: purple;
-  font-size: 1rem;
-  width: 20rem;
-  margin-top: 1rem;
-  cursor: pointer;
+	display: flex;
+	align-items: center;
+	gap: 0 1rem;
+	justify-content: center;
+	padding: 0.8rem;
+	border-radius: 1rem;
+	border: 0.1rem solid purple;
+	color: purple;
+	font-size: 1rem;
+	width: 20rem;
+	margin-top: 1rem;
+	cursor: pointer;
 	transition: 0.5s;
 }
 
@@ -176,104 +175,103 @@
 }
 
 .google span svg, .facebook span svg, .apple span svg {
-  width: 1rem;
-  height: 1rem;
+	width: 1rem;
+	height: 1rem;
 }
 
-@media(max-width: 600px){
+@media (max-width: 600px) {
+	.area-login {
+		align-items: center;
+	}
 
-  .area-login {
-    align-items: center;
-  }
-  
-  .login-info {
-    width: 80%;
-    height: 500px;
-  }
+	.login-info {
+		width: 80%;
+		height: 500px;
+	}
 
-  .login-logo {
-    width: 60rem;
-    margin: 3rem 0;
-  }
+	.login-logo {
+		width: 60rem;
+		margin: 3rem 0;
+	}
 
-  .login-logo .logo-nome {
-    font-size: 4rem;
-  }
-  
-  .login-logo .logo-img svg {
-    cursor: pointer;
-    width: 10rem;
-    height: 10rem;
-  }
-  
-  .fazer-login h1 {
-    font-size: 8rem;
-    font-weight: bold;
-    width: 60rem;
-    margin: 2rem 0;
-  }
-  
-  .fazer-login p {
-    font-size: 3rem;
-  }
+	.login-logo .logo-nome {
+		font-size: 4rem;
+	}
 
-  .login form {
-    display: flex;
-    height: 30vh;
-    width: 60rem;
-    flex-direction: column;
-    /* justify-content: space-evenly; */
-    justify-content: center;
-  }
-  
-  .login-float {
-    position: relative;
-    padding-top: 2rem;
-  }
-  
-  .login-float input {
-    padding: 2rem 0;
-    font-size: 3.5rem;
-    margin-bottom: 3rem;
-  }
-  
-  .login-float label{
-    font-size: 4rem;
-    margin-top: 1rem;
-  }
-  
-  .login-float input:focus + label,
-  .login-float input:not(:placeholder-shown) + label{
-    font-size: 2rem;
-  }
-  
-  .botao-login input{
-    width: 60rem;
-    padding: 1rem;
-    font-size: 4rem;
-  }
-  
-  .ou {
-    display: flex;
-    justify-content: center;
-    font-size: 3rem;
-  }
-  
-  .ou hr {
-    width: 30rem;
-    margin: 2rem;
-  }
+	.login-logo .logo-img svg {
+		cursor: pointer;
+		width: 10rem;
+		height: 10rem;
+	}
 
-  .google span, .facebook span, .apple span {
-    padding: 2rem;
-    border-radius: 1rem;
-    font-size: 3rem;
-    width: 60rem;
-    margin-top: 3rem;
-  }
-  
-  .google span svg, .facebook span svg, .apple span svg {
-    width: 3rem;
-    height: 3rem;
-  }
+	.fazer-login h1 {
+		font-size: 8rem;
+		font-weight: bold;
+		width: 60rem;
+		margin: 2rem 0;
+	}
+
+	.fazer-login p {
+		font-size: 3rem;
+	}
+
+	.login form {
+		display: flex;
+		height: 30vh;
+		width: 60rem;
+		flex-direction: column;
+		/* justify-content: space-evenly; */
+		justify-content: center;
+	}
+
+	.login-float {
+		position: relative;
+		padding-top: 2rem;
+	}
+
+	.login-float input {
+		padding: 2rem 0;
+		font-size: 3.5rem;
+		margin-bottom: 3rem;
+	}
+
+	.login-float label {
+		font-size: 4rem;
+		margin-top: 1rem;
+	}
+
+	.login-float input:focus + label,
+	.login-float input:not(:placeholder-shown) + label {
+		font-size: 2rem;
+	}
+
+	.botao-login input {
+		width: 60rem;
+		padding: 1rem;
+		font-size: 4rem;
+	}
+
+	.ou {
+		display: flex;
+		justify-content: center;
+		font-size: 3rem;
+	}
+
+	.ou hr {
+		width: 30rem;
+		margin: 2rem;
+	}
+
+	.google span, .facebook span, .apple span {
+		padding: 2rem;
+		border-radius: 1rem;
+		font-size: 3rem;
+		width: 60rem;
+		margin-top: 3rem;
+	}
+
+	.google span svg, .facebook span svg, .apple span svg {
+		width: 3rem;
+		height: 3rem;
+	}
 }

@@ -47,7 +47,10 @@
 	transform-style: preserve-3d;
 }
 
-.cartao-giratorio:hover .cartao-giratorio-interno { transform: rotateY(180deg); }
+.cartao-giratorio:hover .cartao-giratorio-interno {
+	transform: rotateY(180deg);
+}
+
 .cartao-giratorio-frente, .cartao-giratorio-atras {
 	position: absolute;
 	width: 100%;

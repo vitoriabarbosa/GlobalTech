@@ -1,13 +1,9 @@
-
 #contato {
-	background: rgba(0, 0, 0, 0.2) url("../images/fundo-home.jpg");
-	background-repeat: no-repeat;
+	background: rgba(0, 0, 0, 0.2) url("../images/fundo-home.jpg") no-repeat fixed center;
 	background-size: cover;
-	background-position: center;
 	/* background-blend-mode: darken; */
 	display: flex;
 	justify-content: space-evenly;
-	background-attachment: fixed;
 }
 
 #contato h2 {
@@ -42,9 +38,12 @@ form {
 	justify-content: center;
 }
 
-.label-float { position: relative; padding-top: 1rem; }
+.label-float {
+	position: relative;
+	padding-top: 1rem;
+}
 
-.label-float input, .label-float textarea{
+.label-float input, .label-float textarea {
 	transition: all .3s ease-out;
 	border-radius: 0;
 	width: 100%;
@@ -57,10 +56,15 @@ form {
 	background: transparent;
 }
 
-.label-float input:focus, .label-float textarea:focus { border-bottom: 0.1rem solid purple; }
-.label-float input::placeholder, .label-float textarea::placeholder { color:transparent; }
+.label-float input:focus, .label-float textarea:focus {
+	border-bottom: 0.1rem solid purple;
+}
 
-.label-float label{
+.label-float input::placeholder, .label-float textarea::placeholder {
+	color: transparent;
+}
+
+.label-float label {
 	pointer-events: none;
 	color: black;
 	position: absolute;
@@ -103,7 +107,9 @@ form {
 	margin: 0 0 1rem 0;
 }
 
-.contato-infos div p { font-size: 1.2rem; }
+.contato-infos div p {
+	font-size: 1.2rem;
+}
 
 .redes-sociais {
 	/* width: 15rem; */
@@ -113,15 +119,22 @@ form {
 	justify-content: space-between;
 }
 
-.redes-sociais i { font-size: 2rem; }
-.redes-sociais span { width: 3rem; text-align: center; }
+.redes-sociais i {
+	font-size: 2rem;
+}
+
+.redes-sociais span {
+	width: 3rem;
+	text-align: center;
+}
+
 .redes-sociais span :hover {
 	color: purple;
 	font-size: 2.5rem;
 	transition: 0.5s;
 }
 
-.botao-enviar input{
+.botao-enviar input {
 	width: 20rem;
 	font-size: 1rem;
 	text-transform: uppercase;

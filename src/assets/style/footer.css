@@ -1,0 +1,134 @@
+footer {
+	background: black;
+	color: white;
+	padding: 1rem;
+}
+
+.sitemap {
+	display: flex;
+	justify-content: space-around;
+	align-items: start;
+	margin: 1rem;
+	font-size: 1rem;
+}
+
+.sitemap h2 {
+	font-size: 1.8rem;
+	margin: 1rem 0;
+	color: #984d98;
+	/* text-align: center; */
+}
+
+.sobre-empresa {
+	width: 14rem;
+}
+
+.sobre-empresa p {
+	line-height: 1.5rem;
+}
+
+.servico-empresa li {
+	margin: 0 0 1.2rem 0;
+}
+
+.servico-empresa a {
+	color: #fff;
+}
+
+.servico-empresa a:hover {
+	color: #e580e5;
+	transition: 0.3s;
+	text-decoration: underline;
+}
+
+/* .servico-empresa, .contato-empresa { text-align: center; } */
+
+.contato-empresa .contato-footer {
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	margin: 0 0 1.2rem 0;
+}
+
+.contato-empresa .contato-footer p {
+	padding-left: 0.5rem;
+}
+
+.contato-empresa .contato-footer i {
+	color: #e580e5;
+}
+
+.mapa-rodape {
+	width: 25rem;
+	height: 18rem;
+}
+
+.rodape {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+/* .rodape p { font-size: 1.5rem; } */
+
+.rodape .copyright {
+	font-size: 1rem;
+}
+
+.rodape .copyright a {
+	color: white;
+	text-decoration: none;
+}
+
+.links-footer ul {
+	display: flex;
+}
+
+.links-footer li {
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+
+.links-footer a {
+	text-decoration: none;
+	color: white;
+	font-size: 1rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.links-footer a:hover {
+	color: #e580e5;
+	transition: 0.3s;
+}
+
+.barrinha {
+	margin: 0.5rem;
+}
+
+hr {
+	width: 100%;
+	margin: 2rem 0;
+}
+
+.termos-de-uso {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1rem;
+	margin: 1.2rem 0;
+}
+
+.termos-de-uso span {
+	margin: 1rem;
+}
+
+.termos-de-uso a {
+	color: #984d98;
+}
+
+.termos-de-uso a:hover {
+	text-decoration: underline;
+}

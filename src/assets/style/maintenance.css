@@ -1,21 +1,20 @@
-#manutencao, #reparos, #recuperarDados { margin: 6rem 0; }
+#manutencao, #reparos, #recuperarDados {
+	margin: 6rem 0;
+}
 
 .titulo-campo.manutencao {
-	background: url("../images/servicos/manutencao.jpg") no-repeat;
+	background: url("../images/servicos/manutencao.jpg") no-repeat center;
 	background-size: cover;
-	background-position: center;
 }
 
 .titulo-campo.reparos {
-	background: url("../images/servicos/reparos.jpg") no-repeat;
+	background: url("../images/servicos/reparos.jpg") no-repeat center;
 	background-size: cover;
-	background-position: center;
 }
 
 .titulo-campo.recuperarDados {
-	background: url("../images/servicos/recuperarDados.jpeg") no-repeat;
+	background: url("../images/servicos/recuperarDados.jpeg") no-repeat center;
 	background-size: cover;
-	background-position: center;
 }
 
 .campo {
@@ -40,7 +39,11 @@
 	cursor: pointer;
 }
 
-.campo-icon i { font-size: 1.5rem; color: purple; }
+.campo-icon i {
+	font-size: 1.5rem;
+	color: purple;
+}
+
 .campo-titulo {
 	font-size: 1.1rem;
 	text-transform: uppercase;
@@ -64,4 +67,6 @@
 	font-size: 1rem;
 }
 
-.campo-saiba-mais:hover { transform: scale(1.1, 1.1); }
+.campo-saiba-mais:hover {
+	transform: scale(1.1, 1.1);
+}

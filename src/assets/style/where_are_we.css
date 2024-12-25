@@ -1,0 +1,59 @@
+#ondeEstamos {
+	display: flex;
+	flex-direction: column;
+	/* justify-content: space-around; */
+}
+
+#ondeEstamos .localizacao {
+	background: url("../images/onde-estamos.png") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 90%;
+	height: 100vh;
+	padding: 2rem;
+}
+
+#ondeEstamos .div-h2 {
+	background: #80008070 url("../images/mapa-titulo.jpeg") no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: darken;
+	height: 25vh;
+}
+
+#ondeEstamos h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 3rem;
+	font-weight: 800;
+	color: white;
+	margin: 4rem;
+	filter: drop-shadow(2px 4px 6px black);
+}
+
+#ondeEstamos h3 {
+	margin: 1rem 2rem;
+	font-size: 2.5rem;
+	font-weight: 800;
+	width: 50rem;
+	color: #747474;
+}
+
+#ondeEstamos h3 span {
+	font-weight: 800;
+	color: #d85d60;
+}
+
+.mapa {
+	margin: 2rem;
+	width: 30rem;
+	height: 20rem;
+	border-radius: 1rem;
+	box-shadow: 0.1rem 0.5rem 1rem black;
+}
+
+iframe {
+	width: 100%;
+	height: 100%;
+	border-radius: 1rem;
+}

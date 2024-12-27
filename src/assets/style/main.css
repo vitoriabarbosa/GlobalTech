@@ -7,14 +7,15 @@
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+main {
+	background: #efefef;
+}
+
 #home {
 	width: 100%;
 	height: 100vh;
-	background-attachment: fixed;
-	background-image: url("../images/fundo-home.jpg");
-	background-repeat: no-repeat;
+	background: url("../images/background/fundo-home.jpg") no-repeat fixed center;
 	background-size: cover;
-	background-position: center;
 }
 
 .digitando {
@@ -23,7 +24,7 @@
 	display: flex;
 }
 
-.digitando h1 {
+.digitando p {
 	margin: 0 5rem;
 	padding: 0.5rem;
 	color: white;
@@ -72,7 +73,6 @@
 	right: 6rem;
 	padding: 3rem;
 	background: #984d9894;
-	box-sizing: border-box;
 	transition: 0.5s;
 	text-align: center;
 }
@@ -94,7 +94,7 @@
 }
 
 #area-cliente {
-	background: #ffffff3b url("../images/fundo-area-cliente.jpeg") no-repeat fixed;
+	background: #ffffff3b url("../images/background/fundo-area-cliente.jpeg") no-repeat fixed;
 	background-size: cover;
 	height: 100vh;
 	padding: 4rem 0;

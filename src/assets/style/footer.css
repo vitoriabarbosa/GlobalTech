@@ -41,8 +41,6 @@ footer {
 	text-decoration: underline;
 }
 
-/* .servico-empresa, .contato-empresa { text-align: center; } */
-
 .contato-empresa .contato-footer {
 	display: flex;
 	/* justify-content: center; */
@@ -80,14 +78,8 @@ footer {
 	text-decoration: none;
 }
 
-.links-footer ul {
+.links-footer {
 	display: flex;
-}
-
-.links-footer li {
-	list-style: none;
-	display: flex;
-	align-items: center;
 }
 
 .links-footer a {

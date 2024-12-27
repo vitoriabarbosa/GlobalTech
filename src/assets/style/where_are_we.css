@@ -1,27 +1,25 @@
-#ondeEstamos {
+#where-are-we {
 	display: flex;
 	flex-direction: column;
 	/* justify-content: space-around; */
 }
 
-#ondeEstamos .localizacao {
-	background: url("../images/onde-estamos.png") no-repeat;
+#where-are-we .location {
+	background: url("../images/background/onde-estamos.png") no-repeat fixed 90%;
+	/*background-position: 90%;*/
 	background-size: cover;
-	background-attachment: fixed;
-	background-position: 90%;
 	height: 100vh;
 	padding: 2rem;
 }
 
-#ondeEstamos .div-h2 {
-	background: #80008070 url("../images/mapa-titulo.jpeg") no-repeat;
+#where-are-we .div-h2 {
+	background: #80008070 url("../images/background/mapa-titulo.jpeg") no-repeat center;
 	background-size: cover;
-	background-position: center;
 	background-blend-mode: darken;
 	height: 25vh;
 }
 
-#ondeEstamos h2 {
+#where-are-we h2 {
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 3rem;
@@ -31,7 +29,7 @@
 	filter: drop-shadow(2px 4px 6px black);
 }
 
-#ondeEstamos h3 {
+#where-are-we h3 {
 	margin: 1rem 2rem;
 	font-size: 2.5rem;
 	font-weight: 800;
@@ -39,12 +37,12 @@
 	color: #747474;
 }
 
-#ondeEstamos h3 span {
+#where-are-we h3 span {
 	font-weight: 800;
 	color: #d85d60;
 }
 
-.mapa {
+.map {
 	margin: 2rem;
 	width: 30rem;
 	height: 20rem;

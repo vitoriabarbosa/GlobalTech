@@ -4,7 +4,7 @@
 }
 
 .area-login {
-	background: url("../images/fundo-login.jpeg") no-repeat center;
+	background: url("../images/background/fundo-login.jpeg") no-repeat center;
 	background-size: cover;
 	height: 100vh;
 	display: flex;
@@ -19,7 +19,7 @@
 	width: 40%;
 }
 
-.login-logo {
+.logo {
 	display: flex;
 	/* justify-content: center; */
 	align-items: center;
@@ -27,7 +27,7 @@
 	margin: 0.5rem;
 }
 
-.login-logo .logo-nome {
+.logo .logo-name {
 	color: #800080;
 	text-decoration: none;
 	font-size: 1.5rem;
@@ -35,7 +35,7 @@
 	text-shadow: 0.1rem 0.5rem 0.1rem black;
 }
 
-.login-logo .logo-img i.bi-globe2::before {
+.logo .logo-icon i.bi-globe2::before {
 	cursor: pointer;
 	font-size: 3rem;
 	display: block;
@@ -189,16 +189,16 @@
 		height: 500px;
 	}
 
-	.login-logo {
+	.logo {
 		width: 60rem;
 		margin: 3rem 0;
 	}
 
-	.login-logo .logo-nome {
+	.logo .logo-name {
 		font-size: 4rem;
 	}
 
-	.login-logo .logo-img svg {
+	.logo .logo-icon svg {
 		cursor: pointer;
 		width: 10rem;
 		height: 10rem;
@@ -270,7 +270,7 @@
 		margin-top: 3rem;
 	}
 
-	.google span svg, .facebook span svg, .apple span svg {
+	.google span i, .facebook span i, .apple span i {
 		width: 3rem;
 		height: 3rem;
 	}

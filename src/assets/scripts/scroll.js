@@ -1,7 +1,7 @@
 /* Código para o SCROLL SUAVE 
 Autor: G. Vanz. Equipe: Tech Fox - Projeto de Landding Page - League of Legends*/
 
-var menu = document.querySelector("#barraNav");
+var menu = document.querySelector("#nav-bar");
 
 const menuLinks = document.querySelectorAll('a[href^="#"]');
 

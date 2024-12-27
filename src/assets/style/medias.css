@@ -1,7 +1,7 @@
 /* @MEDIAS */
 
 @media screen and (min-width: 1024px) {
-	.menuFixo ul {
+	.fixed-menu ul {
 		width: 65vw;
 	}
 
@@ -12,14 +12,14 @@
 		right: 29vw;
 	}
 
-	.menuFixo ul li details span {
+	.fixed-menu ul li details span {
 		width: 16vw;
 		height: 13vw;
 		top: 8.5vw;
 		right: 32vw;
 	}
 
-	#servicos .area-card {
+	#services .area-card {
 		flex-wrap: wrap;
 	}
 }
@@ -29,7 +29,7 @@
 		overflow-x: hidden;
 	}
 
-	.menu-nav .detalhes-servico {
+	.nav-menu .detalhes-servico {
 		display: none;
 	}
 
@@ -38,38 +38,38 @@
 	}
 
 	/* #barraNav { height: 15vh; } */
-	.efeito-logo a {
+	.logo-effect a {
 		font-size: 1.5rem;
 	}
 
-	.efeito-logo .logo-img i {
+	.logo-effect .logo-icon i {
 		font-size: 2rem;
 	}
 
-	.menuFixo ul li a {
+	.fixed-menu ul li a {
 		font-size: 1.2rem;
 	}
 
-	.menu-nav ul {
+	.nav-menu ul {
 		justify-content: space-around;
 		gap: 0;
 	}
 
-	.menu-nav li i {
+	.nav-menu li i {
 		font-size: 1.5rem;
 	}
 
-	.menu-nav li:hover {
+	.nav-menu li:hover {
 		background: transparent;
 		box-shadow: 0 0 0 transparent;
 	}
 
-	.menu-nav a {
+	.nav-menu a {
 		color: white;
 		font-size: 1.2rem;
 	}
 
-	.menu-nav a:hover {
+	.nav-menu a:hover {
 		color: #e580e5;
 		transform: scale(1.1, 1.1)
 	}
@@ -77,7 +77,7 @@
 	/* .menu-nav a i:hover {
 		color: purple;
 	} */
-	.lista {
+	.nav-menu {
 		position: absolute;
 		top: 12vh;
 		right: 0;
@@ -94,7 +94,7 @@
 		transition: transform 0.3s ease-in;
 	}
 
-	.lista li {
+	.nav-menu li {
 		margin-left: 0;
 		opacity: 0;
 		top: 0;
@@ -105,67 +105,67 @@
 		position: relative;
 		top: 0;
 	} */
-	.celular-menu {
+	.mobile-menu {
 		display: block;
 		position: relative;
 		right: -12rem;
 	}
 
-	.quem-somos h2 {
+	.who-are-we h2 {
 		font-size: 4.5vw;
 	}
 
-	#servicos section h2 {
+	#services section h2 {
 		font-size: 4.5vw;
 	}
 
-	#contato h2 {
+	#contact h2 {
 		font-size: 4.5vw;
 	}
 
-	.area-contato {
+	.contact-area {
 		width: 60vw;
 		height: 300px;
 		align-items: center;
 	}
 
-	.area-contato form {
+	.contact-area form {
 		height: 200px;
 	}
 
-	.contato-infos {
+	.contact-info {
 		height: 250px;
 		margin: 0;
 	}
 
-	.cartao-giratorio {
+	.rotating-card {
 		width: 25vw;
 		height: 35vh;
 		margin: 2vw;
 	}
 
-	.cartao-giratorio-frente img {
+	.front-rotating-card img {
 		width: 25vw;
 		height: 35vh;
 	}
 
-	#ondeEstamos h2 {
+	#where-are-we h2 {
 		font-size: 4.5vw;
 		margin: 6vw;
 	}
 
-	#ondeEstamos h3 {
+	#where-are-we h3 {
 		font-size: 4vw;
 		width: 50vw;
 	}
 
-	#ondeEstamos .localizacao {
+	#where-are-we .location {
 		background-position: 90%;
 		padding: 2vw;
 		height: 100%;
 	}
 
-	.mapa {
+	.map {
 		margin: 8vw;
 		width: 80vw;
 		height: 40vw;
@@ -257,75 +257,75 @@
 
 
 @media screen and (max-width: 769px) and (min-width: 500px) {
-	.menu-nav ul {
+	.nav-menu ul {
 		width: 100%;
 		height: 60vh;
 	}
 
-	.conteudo .slider {
+	.content .slider {
 		height: 50%;
 	}
 
-	.conteudo .slider .slide.slide1 {
+	.content .slider .slide.slide1 {
 		background-repeat: no-repeat;
 		background-size: 100vw;
 	}
 
-	.conteudo .slider .slide.slide2 {
+	.content .slider .slide.slide2 {
 		background-size: 100vw;
 		background-repeat: no-repeat;
 	}
 
-	.conteudo .slider .slide.slide3 {
+	.content .slider .slide.slide3 {
 		background-size: 100vw;
 		background-repeat: no-repeat;
 	}
 
-	.conteudo .slider .slide.slide4 {
+	.content .slider .slide.slide4 {
 		background-size: 100vw;
 		background-repeat: no-repeat;
 	}
 
-	.quem-somos {
+	.who-are-we {
 		position: relative;
 		top: -30vw;
 	}
 
-	.quem-somos h2 {
+	.who-are-we h2 {
 		font-size: 6vw;
 	}
 
-	.quem-somos p {
+	.who-are-we p {
 		font-size: 3vw;
 		padding: 3vw;
 	}
 
-	.area-pode-confiar {
+	.you-can-trust-area {
 		position: relative;
 		top: -25vw;
 		margin-bottom: 0;
 	}
 
-	.nosso-diferencial-info {
+	.our-differential-container {
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
 		align-items: center;
 	}
 
-	.nosso-diferencial-info .span-svg {
+	.our-differential-container .span-svg {
 		height: 22vw;
 		width: 22vw;
 		right: 0;
 		top: 12vw;
 	}
 
-	.nosso-diferencial-info .span-svg svg {
+	.our-differential-container .span-svg svg {
 		width: 10vw;
 		height: 10vw;
 	}
 
-	.nosso-diferencial {
+	.our-differential-text {
 		width: 65vw;
 		height: 40vw;
 		background: white;
@@ -334,62 +334,62 @@
 		left: 0;
 	}
 
-	.nosso-diferencial h3 {
+	.our-differential-text h3 {
 		font-size: 3vw;
 		margin: 1vw;
 	}
 
-	.nosso-diferencial h3 span {
+	.our-differential-text h3 span {
 		font-size: 5vw;
 		margin: 2vw;
 	}
 
-	.pode-confiar-info {
+	.you-can-trust-container {
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
 		align-items: center;
 	}
 
-	.pode-confiar-info .span-svg {
+	.you-can-trust-container .span-svg {
 		position: relative;
 		right: 0;
 		top: 9vw;
 	}
 
-	.pode-confiar-info .span-svg svg {
+	.you-can-trust-container .span-svg svg {
 		width: 13vw;
 		height: 13vw;
 	}
 
-	.pode-confiar {
+	.you-can-trust-text {
 		width: 50vw;
 		height: 22vw;
 	}
 
-	.pode-confiar h3 {
+	.you-can-trust-text h3 {
 		font-size: 3.5vw;
 	}
 
-	.pode-confiar h3 span {
+	.you-can-trust-text h3 span {
 		font-size: 5.5vw;
 		font-weight: bold;
 		margin: 0.5vw;
 	}
 
-	.nosso-diferencial-info .span-svg {
+	.our-differential-container .span-svg {
 		height: 22vw;
 		width: 22vw;
 		right: 0;
 		top: 12vw;
 	}
 
-	.nosso-diferencial-info .span-svg svg {
+	.our-differential-container .span-svg svg {
 		width: 10vw;
 		height: 10vw;
 	}
 
-	.nosso-diferencial {
+	.our-differential-text {
 		width: 65vw;
 		height: 40vw;
 		background: white;
@@ -398,54 +398,54 @@
 		left: 0;
 	}
 
-	.nosso-diferencial h3 {
+	.our-differential-text h3 {
 		font-size: 3vw;
 		margin: 1vw;
 	}
 
-	.nosso-diferencial h3 span {
+	.our-differential-text h3 span {
 		font-size: 5vw;
 		margin: 2vw;
 	}
 
-	#servicos section h2 {
+	#services section h2 {
 		font-size: 6vw;
 		margin-top: 0;
 		margin-bottom: 5vw;
 	}
 
-	#servicos .area-card {
+	#services .area-card {
 		flex-direction: column;
 		align-items: center;
 	}
 
-	#servicos .card {
+	#services .card {
 		width: 300px;
 		height: 250px;
 		margin: 5vw 0;
 	}
 
-	#servicos .card-info {
+	#services .card-info {
 		transform: translateY(-250px);
 	}
 
-	#servicos .card-titulo {
+	#services .card-titulo {
 		font-size: 4vw;
 		padding: 4vw;
 	}
 
-	#servicos .card-descricao {
+	#services .card-descricao {
 		padding: 3vw;
 		font-size: 2vw;
 	}
 
-	#servicos .card .saiba-mais {
+	#services .card .saiba-mais {
 		padding: 2vw;
 		width: 30vw;
 		font-size: 2vw;
 	}
 
-	#servicos .card:hover .card-img {
+	#services .card:hover .card-img {
 		transform: translateX(300px);
 		transition-delay: 0s;
 	}
@@ -454,31 +454,31 @@
 		height: 40vh;
 	}
 
-	#clientes h1 {
+	#clients h1 {
 		text-align: center;
 		color: white;
 		font-size: 5vw;
 		padding: 2vw;
 	}
 
-	.cartao-giratorio .cartao-giratorio-atras h2 {
+	.rotating-card .rotating-card-back h2 {
 		font-size: 4vw;
 		font-weight: bold;
 		padding: 4vw;
 	}
 
-	.cartao-giratorio .cartao-giratorio-atras p {
+	.rotating-card .rotating-card-back p {
 		font-size: 3vw;
 		padding: 3vw;
 	}
 
-	.cartao-giratorio .cartao-giratorio-atras svg {
+	.rotating-card .rotating-card-back svg {
 		transform: rotate(180deg);
 		width: 9vw;
 		height: 9vw;
 	}
 
-	.area-contato {
+	.contact-area {
 		width: 70vw;
 		height: 60vh;
 		padding: 2vw 0;
@@ -511,12 +511,12 @@
 		font-size: 2.2vw;
 	}
 
-	.botao-enviar {
+	.send-button {
 		display: flex;
 		justify-content: center;
 	}
 
-	.contato-infos {
+	.contact-info {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
@@ -564,29 +564,29 @@
 }
 
 @media only screen and (max-width: 400px) {
-	#barraNav {
+	#nav-bar {
 		height: 13vh;
 	}
 
-	.logo-nome {
+	.logo-name {
 		font-size: 6vw;
 	}
 
-	.logo-img svg {
+	.logo-icon svg {
 		width: 18vw;
 		height: 18vw;
 	}
 
-	.efeito-logo a {
+	.logo-effect a {
 		font-size: 5vw;
 	}
 
-	.efeito-logo .logo-img svg {
+	.logo-effect .logo-icon svg {
 		width: 10vw;
 		height: 10vw;
 	}
 
-	.celular-menu {
+	.mobile-menu {
 		display: block;
 		position: relative;
 		right: -10vw;
@@ -655,20 +655,20 @@
 		font-size: 2vw;
 	}
 
-	#contato h2 {
+	#contact h2 {
 		font-size: 6vw;
 	}
 
-	.area-contato {
+	.contact-area {
 		width: 300px;
 		height: 310px;
 	}
 
-	.area-contato form {
+	.contact-area form {
 		height: 500px;
 	}
 
-	.botao-enviar input {
+	.send-button input {
 		width: 200px;
 	}
 } 

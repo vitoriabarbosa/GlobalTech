@@ -3,17 +3,17 @@
 }
 
 .titulo-campo.manutencao {
-	background: url("../images/servicos/manutencao.jpg") no-repeat center;
+	background: url("../images/services/manutencao.jpg") no-repeat center;
 	background-size: cover;
 }
 
 .titulo-campo.reparos {
-	background: url("../images/servicos/reparos.jpg") no-repeat center;
+	background: url("../images/services/reparos.jpg") no-repeat center;
 	background-size: cover;
 }
 
 .titulo-campo.recuperarDados {
-	background: url("../images/servicos/recuperarDados.jpeg") no-repeat center;
+	background: url("../images/services/recuperarDados.jpeg") no-repeat center;
 	background-size: cover;
 }
 

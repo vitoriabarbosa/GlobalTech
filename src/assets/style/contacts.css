@@ -1,12 +1,12 @@
-#contato {
-	background: rgba(0, 0, 0, 0.2) url("../images/fundo-home.jpg") no-repeat fixed center;
+#contact {
+	background: rgba(0, 0, 0, 0.2) url("../images/background/fundo-home.jpg") no-repeat fixed center;
 	background-size: cover;
 	/* background-blend-mode: darken; */
 	display: flex;
 	justify-content: space-evenly;
 }
 
-#contato h2 {
+#contact h2 {
 	font-size: 3rem;
 	font-weight: 800;
 	text-transform: uppercase;
@@ -15,7 +15,7 @@
 	margin: 2rem;
 }
 
-.area-contato {
+.contact-area {
 	display: flex;
 	justify-content: space-evenly;
 	background: #ffffffde;
@@ -93,7 +93,7 @@ form {
 	font-weight: bold;
 }
 
-.contato-infos {
+.contact-info {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
@@ -101,42 +101,41 @@ form {
 	height: 100%;
 }
 
-.contato-infos div h3 {
+.contact-info div h3 {
 	font-size: 2.5rem;
 	font-weight: bold;
 	margin: 0 0 1rem 0;
 }
 
-.contato-infos div p {
+.contact-info div p {
 	font-size: 1.2rem;
 }
 
-.redes-sociais {
-	/* width: 15rem; */
+.social-network {
 	height: 4rem;
 	align-items: center;
 	display: flex;
 	justify-content: space-between;
 }
 
-.redes-sociais i {
+.social-network i {
 	font-size: 2rem;
 }
 
-.redes-sociais span {
+.social-network span {
 	width: 3rem;
 	text-align: center;
 }
 
-.redes-sociais span :hover {
+.social-network span :hover {
 	color: purple;
 	font-size: 2.5rem;
 	transition: 0.5s;
 }
 
-.botao-enviar input {
+.send-button input {
 	width: 20rem;
-	font-size: 1rem;
+	font-size: 1em;
 	text-transform: uppercase;
 	font-weight: 600;
 	letter-spacing: 0.1rem;
@@ -149,7 +148,7 @@ form {
 	box-shadow: 0.1rem 0.5rem 0.8rem black;
 }
 
-.botao-enviar input:hover {
+.send-button input:hover {
 	box-shadow: 0 0.1rem 0.1rem black;
 	transition: 0.5s;
 }

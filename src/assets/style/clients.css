@@ -1,12 +1,12 @@
-#clientes {
-	background: #984d98;
-	padding: 5rem 0;
+#clients {
+	background: #be95c3;
+	padding: 3rem 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-#clientes h1 {
+#clients h1 {
 	text-align: center;
 	color: white;
 	font-size: 2.5rem;
@@ -16,14 +16,14 @@
 	padding: 2rem;
 }
 
-#clientes article {
+#clients article {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	width: 90%;
 }
 
-.cartao-giratorio {
+.rotating-card {
 	width: 300px;
 	height: 300px;
 	perspective: 1000px;
@@ -31,14 +31,14 @@
 	margin: 2rem;
 }
 
-.cartao-giratorio-frente img {
+.front-rotating-card img {
 	width: 300px;
 	height: 300px;
 	background-size: cover;
 	border-radius: 0.5rem;
 }
 
-.cartao-giratorio-interno {
+.rotating-card-inside {
 	position: relative;
 	width: 100%;
 	height: 100%;
@@ -47,11 +47,11 @@
 	transform-style: preserve-3d;
 }
 
-.cartao-giratorio:hover .cartao-giratorio-interno {
+.rotating-card:hover .rotating-card-inside {
 	transform: rotateY(180deg);
 }
 
-.cartao-giratorio-frente, .cartao-giratorio-atras {
+.front-rotating-card, .rotating-card-back {
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -59,38 +59,32 @@
 	box-shadow: 0.1rem 0.5rem 1rem black;
 }
 
-.cartao-giratorio-frente {
+.front-rotating-card {
 	background: #461f7c;
-	color: black;
+	color: #fff;
 	border-radius: 1rem;
 }
 
-.cartao-giratorio-frente span {
+.front-rotating-card p {
 	position: absolute;
-	left: 1rem;
-	margin: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	left: .8rem;
+	bottom: .8rem;
+	font-size: .8em;
+	padding: .8rem;
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 4px;
 }
 
-.cartao-giratorio-frente span.nome {
-	position: absolute;
-	bottom: 2.5rem;
-	font-size: 1rem;
+.front-rotating-card span {
+	font-size: 1em;
 	font-weight: 700;
-	color: black;
-	padding: 0.5rem;
-	background: white;
 }
 
-.cartao-giratorio-frente span.regiao {
-	position: absolute;
-	bottom: 1rem;
-	font-size: 0.8rem;
-	color: black;
-	padding: 0.5rem;
-	background: white;
-}
 
-.cartao-giratorio-atras {
+.rotating-card-back {
 	background: #461f7c;
 	color: white;
 	transform: rotateY(180deg);
@@ -102,21 +96,21 @@
 	gap: 1.5rem;
 }
 
-.cartao-giratorio .cartao-giratorio-atras h2 {
-	font-size: 1.2rem;
+.rotating-card .rotating-card-back h2 {
+	font-size: 1.1em;
 	font-weight: bold;
 	text-transform: uppercase;
 	margin-top: 1.5rem;
 }
 
-.cartao-giratorio .cartao-giratorio-atras p {
-	font-size: 1rem;
+.rotating-card .rotating-card-back p {
+	font-size: .9em;
 	font-weight: 500;
 	color: #fff;
 	padding: 0 1.5rem;
 }
 
-.cartao-giratorio .cartao-giratorio-atras i {
+.rotating-card .rotating-card-back i {
 	transform: rotate(180deg);
 	font-size: 3rem;
 	color: white;

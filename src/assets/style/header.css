@@ -1,4 +1,4 @@
-#barraNav {
+#nav-bar {
 	position: fixed;
 	z-index: 10;
 	width: 100%;
@@ -7,53 +7,53 @@
 	justify-content: space-around;
 }
 
-.menuFixo {
-	background: black;
+.fixed-menu {
+	background: rgba(0, 0, 0, 0.77);
 	display: flex;
 	top: 0;
-	height: 12vh;
+	height: 8vh;
 }
 
-.menuFixo ul li a {
-	font-size: 0.85rem;
+.fixed-menu ul li a {
+	font-size: .80em;
 	font-weight: 700;
 	letter-spacing: 0;
 }
 
-.menuFixo ul li .servico-reserva, .menuFixo ul li .casinha {
+.fixed-menu ul li .servico-reserva, .fixed-menu ul li .casinha {
 	display: block;
 }
 
-.menuFixo .detalhes-servico {
+.fixed-menu .detalhes-servico {
 	display: none;
 }
 
-#menu-logo {
+#logo {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 1rem;
 }
 
-.efeito-logo {
+.logo-effect {
 	display: flex;
 	align-items: center;
 	color: white;
 }
 
-.efeito-logo a {
-	font-size: 1.65rem;
+.logo-effect a {
+	font-size: 1.5em;
 }
 
-.efeito-logo .logo-img i.bi-globe2::before {
-	font-size: 3rem;
+.logo-effect .logo-icon i.bi-globe2::before {
+	font-size: 2.5em;
 }
 
-.logo-img i.bi-globe2::before {
+.logo-icon i.bi-globe2::before {
 	content: "\f3ef";
 	cursor: pointer;
 	display: block;
-	font-size: 4.5rem;
+	font-size: 5em;
 	color: purple;
 	filter: drop-shadow(0 0.1rem 0.8rem black);
 	animation: spin 3s linear infinite;
@@ -65,21 +65,15 @@
 	}
 }
 
-.logo-nome {
+.logo-name {
 	color: white;
 	text-decoration: none;
-	font-size: 2.5rem;
+	font-size: 2.5em;
 	font-weight: bold;
 	text-shadow: 0 0.1rem 0.8rem black;
 }
 
-.menu-nav {
-	display: flex;
-	align-items: center;
-	/* height: 10vw; */
-}
-
-.menu-nav ul {
+.nav-menu {
 	display: flex;
 	align-items: center;
 	white-space: nowrap; /* impede a quebra de linha auto */
@@ -87,30 +81,22 @@
 	justify-content: flex-end;
 }
 
-.menu-nav li {
+.nav-menu li {
 	display: flex;
 	align-items: center;
 }
 
-.menu-nav a {
-	font-size: 1rem;
+.nav-menu a {
+	font-size: 1em;
 	/* letter-spacing: 0.09em; */
 	text-shadow: rgb(0 0 0) 2px 0.2rem 0.1rem;
-	color: #ffffff;
+	color: #cccccc;
 	font-weight: 800;
 	text-transform: uppercase;
 	cursor: pointer;
 }
 
-.menu-nav a i.bi-house-fill::before {
-	display: block;
-	font-size: 1.3rem;
-	color: #e580e5;
-	cursor: pointer;
-	filter: drop-shadow(0 0.1rem 0.5rem black);
-}
-
-.menu-nav .icon-login {
+.nav-menu .icon-login {
 	font-size: 1.1rem;
 	border: 0.1rem solid #e580e5;
 	padding: 0.5rem 1rem;
@@ -118,21 +104,16 @@
 	/* background: #e580e5; */
 }
 
-/* .menu-nav .icon-login:hover {
-	background: #fff;
-	transition: 0.3s;
-} */
-
-.menu-nav a:hover {
+.nav-menu a:hover {
 	color: #e580e5;
 	transition: 0.3s;
 }
 
-.menu-nav span, .servico-reserva, .menu-nav ul .casinha {
+.nav-menu span, .servico-reserva {
 	display: none;
 }
 
-.menu-nav .detalhes-servico:hover span {
+.nav-menu .detalhes-servico:hover span {
 	display: flex;
 	position: absolute;
 	text-align: center;
@@ -147,25 +128,25 @@
 	height: 150px;
 }
 
-.menu-nav .detalhes-p a {
+.nav-menu .detail-link a {
 	font-size: 0.85rem;
 	color: white;
 	text-shadow: rgb(0 0 0) 2px 0.1rem 0.1rem;
 	transition: 0.5s;
 }
 
-.menu-nav .detalhes-p a:hover {
+.nav-menu .detail-link a:hover {
 	/* color: #c12360; */
 	color: purple;
 	text-shadow: purple 9px 0.7rem 0.9rem;
 }
 
-.celular-menu {
+.mobile-menu {
 	cursor: pointer;
 	display: none;
 }
 
-.celular-menu div {
+.mobile-menu span {
 	width: 30px;
 	height: 3px;
 	background: white;
@@ -173,7 +154,7 @@
 	transition: 0.3s;
 }
 
-.lista.active {
+.nav-menu.active {
 	transform: translateX(0)
 }
 
@@ -188,14 +169,14 @@
 	}
 }
 
-.celular-menu.active .linha-1 {
+.mobile-menu.active .line-1 {
 	transform: rotate(-45deg) translate(-8px, 8px);
 }
 
-.celular-menu.active .linha-2 {
+.mobile-menu.active .line-2 {
 	opacity: 0;
 }
 
-.celular-menu.active .linha-3 {
+.mobile-menu.active .line-3 {
 	transform: rotate(45deg) translate(-5px, -7px);
 }

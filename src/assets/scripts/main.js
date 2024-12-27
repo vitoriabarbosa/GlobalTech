@@ -1,18 +1,18 @@
 
 // efeito no menu
 (function() {
-  var nav = document.getElementById('barraNav');
+  const nav = document.getElementById('nav-bar');
   window.addEventListener('scroll', function() {
-    if (window.scrollY > 100) nav.classList.add('menuFixo');
-    else nav.classList.remove('menuFixo');
+    if (window.scrollY > 100) nav.classList.add('fixed-menu');
+    else nav.classList.remove('fixed-menu');
   });
 })();
 
 (function() {
-  var logo = document.getElementById('menu-logo');
+  const logo = document.getElementById('logo');
   window.addEventListener('scroll', function() {
-    if (window.scrollY > 100) logo.classList.add('efeito-logo');
-    else logo.classList.remove('efeito-logo');
+    if (window.scrollY > 100) logo.classList.add('logo-effect');
+    else logo.classList.remove('logo-effect');
   });
 })();
 
@@ -42,10 +42,10 @@ function abrirLogin() {
 
 
 function validarForm() {
-  var nome = document.forms[0].texto.value;
-  var email = document.forms[0].email.value;
-  var telefone = document.forms[0].telefone.value;
-  var mensagem = document.forms[0].texto.value;
+  const nome = document.forms[0].texto.value;
+  const email = document.forms[0].email.value;
+  const telefone = document.forms[0].telefone.value;
+  const mensagem = document.forms[0].texto.value;
 
   if(nome=="" || email=="" || telefone=="" || mensagem==""){
     alert("HUM... PARECE QUE VOCÊ ESQUECEU DE PREENCHER OS CAMPOS...");   
@@ -129,8 +129,8 @@ class MobileNavbar {
 }
 
 const mobileNavbar = new MobileNavbar(
-  ".celular-menu",
-  ".lista",
-  ".lista li",
+  ".mobile-menu",
+  ".nav-menu",
+  ".nav-menu li",
 );
 mobileNavbar.init();
